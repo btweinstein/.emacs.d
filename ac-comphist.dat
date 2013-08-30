@@ -1,420 +1,420 @@
-((("my:el-get-packages" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("el-get" .
-   [1 0 0 0 0 0])
-  ("ecb" .
-   [1 0 0])
-  ("num" .
-   [1 0 0])
-  ("imageIDList" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("saveName" .
-   [1 0 0 0 0 0 0 0])
-  ("averages" .
-   [4 0 0 0 0 0 0 0])
-  ("areaPerWellMatrix" .
-   [1 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0])
-  ("numImagingTimes" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("firstCol" .
-   [0 0 0 0 0 1 0 0])
-  ("firstRow" .
-   [1 0 0 0 0 0 0 0])
-  ("first" .
-   [1 0 0 0 0])
-  ("imageTimeIndex" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("currentAverage" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("currentError" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("areaVector" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("clf" .
-   [2 0 0])
-  ("saveFolder" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("savefig" .
-   [2 0 0 0 0 0 0])
-  ("gcf" .
-   [2 0 0])
-  ("fmt" .
-   [2 0 0])
-  ("yerr" .
-   [2 0 0 0])
-  ("errorbar" .
-   [2 0 0 0 0 0 0 0])
-  ("averageAreaVector" .
-   [8 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("sem" .
-   [2 0 0])
-  ("stats" .
-   [2 0 0 0 0])
-  ("sp" .
-   [2 0])
-  ("stdEr" .
-   [1 0 0 0 0])
-  ("std" .
-   [1 0 0])
-  ("stdDev" .
-   [1 0 0 0 0 0])
-  ("mean" .
-   [2 0 0 0])
-  ("unqiueTimeDelta" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("currentAreas" .
-   [4 0 0 0 0 0 0 0 0 0 0 0])
-  ("uniqueTimeDeltaVector" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0])
-  ("unique" .
-   [1 0 0 0 0 0])
-  ("errorVector" .
-   [8 0 0 0 0 0 0 0 0 0 0])
-  ("timeDeltaVector" .
-   [7 0 0 0 0 1 1 0 0 1 0 1 0 0 0])
-  ("makePlotPretty" .
-   [0 0 0 0 1 1 1 0 1 0 0 0 0 0])
-  ("ylabel" .
-   [4 0 0 0 0 0])
-  ("xlabel" .
-   [4 0 0 0 0 0])
-  ("uniquePairs" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("derp" .
-   [1 0 0 0])
-  ("column" .
-   [2 0 0 0 0 0])
-  ("row" .
-   [3 0 0])
-  ("match" .
-   [1 0 0 0 0])
-  ("tumorSelectionFolder" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("environment" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("areaIndex" .
-   [1 0 0 0 0 0 0 0 0])
-  ("imageID" .
-   [3 0 0 0 0 0 0])
-  ("fileNumber" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("findall" .
-   [1 0 0 0 0 0 0])
-  ("concentration" .
-   [8 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("grid" .
-   [1 0 0 0])
-  ("tick_params" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("minorLocator" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("show" .
-   [6 0 0 0])
-  ("set_major_formatter" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("majorFormatter" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("FormatStrFormatter" .
-   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("MultipleLocator" .
+((("numTrajectories" .
    [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ticker" .
-   [1 0 0 0 0 0])
-  ("matplotlib" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("xaxis" .
-   [1 0 0 0 0])
-  ("majorLocator" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("ax" .
-   [3 0])
-  ("gca" .
-   [1 0 0])
-  ("plt" .
-   [32 0 0])
-  ("averageArea" .
-   [4 0 0 0 0 0 0 0 0 0 0])
-  ("error" .
-   [6 0 0 0 0])
-  ("append" .
-   [3 0 0 0 0 0])
-  ("errors" .
-   [6 0 0 0 0 0])
-  ("startTimeOffset" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("area" .
-   [1 0 0 0])
-  ("ind" .
-   [4 0 0])
-  ("lexsort" .
-   [2 0 0 0 0 0 0])
-  ("timeD" .
-   [1 0 0 0 0])
-  ("time" .
-   [1 0 0 0])
-  ("column_stack" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("transpose" .
-   [4 0 0 0 0 0 0 0 0])
-  ("sortedData" .
-   [4 0 0 0 0 0 0 0 0 0])
-  ("axis" .
-   [4 0 0 0])
-  ("sort" .
-   [2 0 0 0])
-  ("combinedData" .
-   [3 0 0 0 0 0 0 0 0 0 0 0])
-  ("averageAreas" .
-   [17 0 0 0 0 0 0 0 0 0 0 0])
-  ("concatenate" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("timeDelta" .
-   [1 0 0 0 0 0 0 0 0])
-  ("uniqueTimeDeltas" .
-   [12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("timeStart" .
-   [4 0 0 0 0 0 0 0 0])
-  ("array" .
-   [11 0 0 0 0])
-  ("timeDeltas" .
-   [17 0 0 0 0 0 0 0 0 0])
-  ("startTimes" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("startTimeIndex" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("colNames" .
-   [3 0 0 0 0 0 0 0])
-  ("uniqueTimes" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("decimals" .
-   [3 0 0 0 0 0 0 0])
-  ("times" .
-   [4 0 0 0 0])
-  ("areas" .
-   [7 0 0 0 0])
-  (":2" .
-   [1 0])
-  ("csv" .
-   [1 0 0])
-  ("output" .
-   [1 0 0 0 0 0])
-  ("queryFolder" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("downloadQueriedImages" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("images" .
+  ("queryRows" .
+   [2 0 0 0 0 0 0 0 0])
+  ("readCoordinates" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("title" .
+   [10 0 0 0 0])
+  ("figure" .
    [5 0 0 0 0 0])
-  ("nil" .
-   [1 0 0])
-  ("jedi" .
-   [2 0 0 0])
-  ("add-hook" .
-   [4 0 0 0 0 0 0 0])
-  ("setq" .
-   [13 0 0 0])
-  ("project_ID" .
-   [0 0 0 0 0 0 0 1 0 0])
-  ("exp" .
-   [4 0 0])
-  ("wellData" .
-   [3 0 0 0 0 0 0 0])
-  ("experiment" .
-   [7 1 0 0 0 0 0 0 0 0])
-  ("Experiment" .
-   [1 0 1 1 0 1 0 0 0 0])
-  ("j" .
-   [8])
-  ("i" .
-   [9])
-  ("wells" .
-   [9 0 0 0 0])
-  ("omeroScripts" .
-   [7 0 0 0 0 0 0 0 1 0 0 0])
-  ("empty" .
-   [2 0 0 0 0])
-  ("matrix" .
-   [1 0 0 0 0 0])
-  ("numColumns" .
-   [9 0 0 0 0 0 0 0 0 0])
-  ("numRows" .
-   [7 0 0 0 0 0 0])
-  ("np" .
-   [34 0])
-  ("numpy" .
+  ("uniqueConcentrations" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("concentrations" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("index" .
    [1 0 0 0 0])
-  ("close" .
-   [2 0 0 0 0])
-  ("conn" .
-   [15 0 0 0])
-  ("getConnection" .
-   [1 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("connection" .
-   [7 0 0 0 0 0 0 0 0 0])
-  ("Connection" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("connectToServer" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("require" .
-   [7 0 0 0 0 0 0])
-  ("currentWell" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("a" .
-   [1])
-  ("queries" .
-   [1 0 0 0 0 0 0])
-  ("re" .
-   [3 0])
-  ("tableName" .
-   [2 0 0 0 0 0 0 0 0])
-  ("tables" .
-   [12 0 0 0 0 0])
-  ("createCellProperties" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cell" .
-   [1 0 0 0])
-  ("_cellProperties" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("addCellProperties" .
+  ("cellConcentration" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("experiments" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("experimentName" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("c" .
-   [3])
-  ("closeConnection" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("SHECAD_Growth_Curve" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1])
-  ("table" .
-   [2 0 0 0 0])
-  ("omero" .
-   [4 0 0 0 0])
-  ("sf" .
-   [1 0])
-  ("sharedResources" .
+  ("concentrationIndex" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("startTimeVector" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("newTable" .
-   [1 0 0 0 0 0 0 0])
-  ("_cellPropertiesID" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("_cellColumns" .
-   [2 0 0 0 0 0 0 0 0 0 0 0])
-  ("keys" .
-   [3 0 0 0])
-  ("key" .
-   [4 0 0])
-  ("getObjects" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("idList" .
-   [7 0 0 0 0 0])
-  ("count" .
-   [11 0 0 0 0])
-  ("imageList" .
-   [3 0 0 0 0 0 0 0 0])
-  ("_analysisFolder" .
-   [3 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("image" .
-   [1 0 0 0 0])
-  ("exportOmeTiff" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("fid" .
-   [2 0 0])
-  ("write" .
-   [1 0 0 0 0])
-  ("downloadImages" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("imageIndex" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("idIne" .
-   [1 0 0 0 0])
-  ("idIndex" .
-   [2 0 0 0 0 0 0])
-  ("data" .
-   [9 0 0 0])
-  ("columns" .
-   [8 0 0 0 0 0 0])
-  ("values" .
-   [7 0 0 0 0 0])
-  ("shutil" .
-   [2 0 0 0 0 0])
-  ("rmtree" .
-   [1 0 0 0 0 0])
-  ("os" .
-   [4 0])
-  ("path" .
-   [2 0 0 0])
-  ("isdir" .
-   [3 0 0 0 0])
-  ("makedirs" .
-   [2 0 0 0 0 0 0 0])
-  ("filePath" .
-   [2 0 0 0 0 0 0 0])
-  ("DISPLAY" .
-   [1 0 0 0 0 0 0])
-  ("util" .
-   [1 0 0 0])
-  ("temp_files" .
-   [3 0 0 0 0 0 0 0 0 0])
-  ("TempFileManager" .
-   [1 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("tempManager" .
-   [2 0 0 0 0 0 0 0 0 0 0])
-  ("clean_tempdir" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cleanup" .
-   [1 0 0 0 0 0 0])
-  ("manager" .
-   [1 0 0 0 0 0 0])
-  ("self" .
-   [5 0 0 0])
-  ("countc" .
-   [1 0 0 0 0 0])
-  ("col" .
-   [3 0 0])
-  ("name" .
-   [1 0 0 0])
-  ("closeAll" .
-   [2 0 0 0 0 0 0 0])
-  ("cellTable" .
-   [2 0 0 0 0 0 0 0 0])
-  ("projectID" .
-   [1 0 0 0 0 0 0 0 0])
-  ("sys" .
-   [3 0 0])
-  ("argv" .
-   [2 0 0 0])
-  ("getArea" .
-   [1 0 0 0 0 0 0])
-  ("analyze" .
-   [1 0 0 0 0 0 0])
-  ("locateTumorArea" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("updateTumorArea" .
+  ("imageTimeVector" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("updateAllAreas" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("imageTimeVector" .
+  ("updateTumorArea" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("startTimeVector" .
+  ("locateTumorArea" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("concentrationIndex" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cellConcentration" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("index" .
-   [1 0 0 0 0])
-  ("concentrations" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("uniqueConcentrations" .
-   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("figure" .
-   [5 0 0 0 0 0])
-  ("title" .
-   [10 0 0 0 0])
-  ("readCoordinates" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("queryRows" .
+  ("analyze" .
+   [1 0 0 0 0 0 0])
+  ("getArea" .
+   [1 0 0 0 0 0 0])
+  ("argv" .
+   [2 0 0 0])
+  ("sys" .
+   [3 0 0])
+  ("projectID" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cellTable" .
    [2 0 0 0 0 0 0 0 0])
-  ("numTrajectories" .
-   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))
+  ("closeAll" .
+   [2 0 0 0 0 0 0 0])
+  ("name" .
+   [1 0 0 0])
+  ("col" .
+   [3 0 0])
+  ("countc" .
+   [1 0 0 0 0 0])
+  ("self" .
+   [5 0 0 0])
+  ("manager" .
+   [1 0 0 0 0 0 0])
+  ("cleanup" .
+   [1 0 0 0 0 0 0])
+  ("clean_tempdir" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tempManager" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("TempFileManager" .
+   [1 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("temp_files" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("util" .
+   [1 0 0 0])
+  ("DISPLAY" .
+   [1 0 0 0 0 0 0])
+  ("filePath" .
+   [2 0 0 0 0 0 0 0])
+  ("makedirs" .
+   [2 0 0 0 0 0 0 0])
+  ("isdir" .
+   [3 0 0 0 0])
+  ("path" .
+   [2 0 0 0])
+  ("os" .
+   [4 0])
+  ("rmtree" .
+   [1 0 0 0 0 0])
+  ("shutil" .
+   [2 0 0 0 0 0])
+  ("values" .
+   [7 0 0 0 0 0])
+  ("columns" .
+   [8 0 0 0 0 0 0])
+  ("data" .
+   [9 0 0 0])
+  ("idIndex" .
+   [2 0 0 0 0 0 0])
+  ("idIne" .
+   [1 0 0 0 0])
+  ("imageIndex" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("downloadImages" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("write" .
+   [1 0 0 0 0])
+  ("fid" .
+   [2 0 0])
+  ("exportOmeTiff" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("image" .
+   [1 0 0 0 0])
+  ("_analysisFolder" .
+   [3 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("imageList" .
+   [3 0 0 0 0 0 0 0 0])
+  ("count" .
+   [11 0 0 0 0])
+  ("idList" .
+   [7 0 0 0 0 0])
+  ("getObjects" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("key" .
+   [4 0 0])
+  ("keys" .
+   [3 0 0 0])
+  ("_cellColumns" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("_cellPropertiesID" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("newTable" .
+   [1 0 0 0 0 0 0 0])
+  ("sharedResources" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sf" .
+   [1 0])
+  ("omero" .
+   [4 0 0 0 0])
+  ("table" .
+   [2 0 0 0 0])
+  ("SHECAD_Growth_Curve" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1])
+  ("closeConnection" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("c" .
+   [3])
+  ("experimentName" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("experiments" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("addCellProperties" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("_cellProperties" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cell" .
+   [1 0 0 0])
+  ("createCellProperties" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tables" .
+   [12 0 0 0 0 0])
+  ("tableName" .
+   [2 0 0 0 0 0 0 0 0])
+  ("re" .
+   [3 0])
+  ("queries" .
+   [1 0 0 0 0 0 0])
+  ("a" .
+   [1])
+  ("currentWell" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("require" .
+   [7 0 0 0 0 0 0])
+  ("connectToServer" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("Connection" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("connection" .
+   [7 0 0 0 0 0 0 0 0 0])
+  ("getConnection" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("conn" .
+   [15 0 0 0])
+  ("close" .
+   [2 0 0 0 0])
+  ("numpy" .
+   [1 0 0 0 0])
+  ("np" .
+   [34 0])
+  ("numRows" .
+   [7 0 0 0 0 0 0])
+  ("numColumns" .
+   [9 0 0 0 0 0 0 0 0 0])
+  ("matrix" .
+   [1 0 0 0 0 0])
+  ("empty" .
+   [2 0 0 0 0])
+  ("omeroScripts" .
+   [7 0 0 0 0 0 0 0 1 0 0 0])
+  ("wells" .
+   [9 0 0 0 0])
+  ("i" .
+   [9])
+  ("j" .
+   [8])
+  ("Experiment" .
+   [1 0 1 1 0 1 0 0 0 0])
+  ("experiment" .
+   [7 1 0 0 0 0 0 0 0 0])
+  ("wellData" .
+   [3 0 0 0 0 0 0 0])
+  ("exp" .
+   [4 0 0])
+  ("project_ID" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("setq" .
+   [13 0 0 0])
+  ("add-hook" .
+   [4 0 0 0 0 0 0 0])
+  ("jedi" .
+   [2 0 0 0])
+  ("nil" .
+   [1 0 0])
+  ("images" .
+   [5 0 0 0 0 0])
+  ("downloadQueriedImages" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("queryFolder" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("output" .
+   [1 0 0 0 0 0])
+  ("csv" .
+   [1 0 0])
+  (":2" .
+   [1 0])
+  ("areas" .
+   [7 0 0 0 0])
+  ("times" .
+   [4 0 0 0 0])
+  ("decimals" .
+   [3 0 0 0 0 0 0 0])
+  ("uniqueTimes" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("colNames" .
+   [3 0 0 0 0 0 0 0])
+  ("startTimeIndex" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("startTimes" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("timeDeltas" .
+   [17 0 0 0 0 0 0 0 0 0])
+  ("array" .
+   [11 0 0 0 0])
+  ("timeStart" .
+   [4 0 0 0 0 0 0 0 0])
+  ("uniqueTimeDeltas" .
+   [12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("timeDelta" .
+   [1 0 0 0 0 0 0 0 0])
+  ("concatenate" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("averageAreas" .
+   [17 0 0 0 0 0 0 0 0 0 0 0])
+  ("combinedData" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("sort" .
+   [2 0 0 0])
+  ("axis" .
+   [4 0 0 0])
+  ("sortedData" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("transpose" .
+   [4 0 0 0 0 0 0 0 0])
+  ("column_stack" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("time" .
+   [1 0 0 0])
+  ("timeD" .
+   [1 0 0 0 0])
+  ("lexsort" .
+   [2 0 0 0 0 0 0])
+  ("ind" .
+   [4 0 0])
+  ("area" .
+   [1 0 0 0])
+  ("startTimeOffset" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("errors" .
+   [6 0 0 0 0 0])
+  ("append" .
+   [3 0 0 0 0 0])
+  ("error" .
+   [6 0 0 0 0])
+  ("averageArea" .
+   [4 0 0 0 0 0 0 0 0 0 0])
+  ("plt" .
+   [32 0 0])
+  ("gca" .
+   [1 0 0])
+  ("ax" .
+   [3 0])
+  ("majorLocator" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("xaxis" .
+   [1 0 0 0 0])
+  ("matplotlib" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ticker" .
+   [1 0 0 0 0 0])
+  ("MultipleLocator" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FormatStrFormatter" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("majorFormatter" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("set_major_formatter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("show" .
+   [6 0 0 0])
+  ("minorLocator" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("tick_params" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("grid" .
+   [1 0 0 0])
+  ("concentration" .
+   [8 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("findall" .
+   [1 0 0 0 0 0 0])
+  ("fileNumber" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("imageID" .
+   [3 0 0 0 0 0 0])
+  ("areaIndex" .
+   [1 0 0 0 0 0 0 0 0])
+  ("environment" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("tumorSelectionFolder" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("match" .
+   [1 0 0 0 0])
+  ("row" .
+   [3 0 0])
+  ("column" .
+   [2 0 0 0 0 0])
+  ("derp" .
+   [1 0 0 0])
+  ("uniquePairs" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("xlabel" .
+   [4 0 0 0 0 0])
+  ("ylabel" .
+   [4 0 0 0 0 0])
+  ("makePlotPretty" .
+   [0 0 0 0 1 1 1 0 1 0 0 0 0 0])
+  ("timeDeltaVector" .
+   [7 0 0 0 0 1 1 0 0 1 0 1 0 0 0])
+  ("errorVector" .
+   [8 0 0 0 0 0 0 0 0 0 0])
+  ("unique" .
+   [1 0 0 0 0 0])
+  ("uniqueTimeDeltaVector" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0])
+  ("currentAreas" .
+   [4 0 0 0 0 0 0 0 0 0 0 0])
+  ("unqiueTimeDelta" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("mean" .
+   [2 0 0 0])
+  ("stdDev" .
+   [1 0 0 0 0 0])
+  ("std" .
+   [1 0 0])
+  ("stdEr" .
+   [1 0 0 0 0])
+  ("sp" .
+   [2 0])
+  ("stats" .
+   [2 0 0 0 0])
+  ("sem" .
+   [2 0 0])
+  ("averageAreaVector" .
+   [8 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("errorbar" .
+   [2 0 0 0 0 0 0 0])
+  ("yerr" .
+   [2 0 0 0])
+  ("fmt" .
+   [2 0 0])
+  ("gcf" .
+   [2 0 0])
+  ("savefig" .
+   [2 0 0 0 0 0 0])
+  ("saveFolder" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("clf" .
+   [2 0 0])
+  ("areaVector" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("currentError" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("currentAverage" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("imageTimeIndex" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("first" .
+   [1 0 0 0 0])
+  ("firstRow" .
+   [1 0 0 0 0 0 0 0])
+  ("firstCol" .
+   [0 0 0 0 0 1 0 0])
+  ("numImagingTimes" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("areaPerWellMatrix" .
+   [1 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0])
+  ("averages" .
+   [4 0 0 0 0 0 0 0])
+  ("saveName" .
+   [1 0 0 0 0 0 0 0])
+  ("imageIDList" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("num" .
+   [1 0 0])
+  ("ecb" .
+   [1 0 0])
+  ("el-get" .
+   [1 0 0 0 0 0])
+  ("my:el-get-packages" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])))
