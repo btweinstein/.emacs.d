@@ -1,0 +1,172 @@
+;; Object utility/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "utility/"
+  :tables
+  (list
+    (semanticdb-table "createCellPropWithExperiment.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("cellProp" code nil nil [187 204])
+            ("cellProp" code nil nil [205 243])
+            ("connection" code nil nil [264 296]))          
+      :file "createCellPropWithExperiment.py"
+      :pointmax 297
+      :fsize 296
+      :lastmodtime '(21006 19694 0 0)
+      :unmatched-syntax '((INDENT_BLOCK 217 . 260) (INDENT_BLOCK 195 . 260) (INDENT_BLOCK 152 . 260) (INDENT_BLOCK 114 . 260) (TRY 114 . 117) ($EOI 277 . 277) ($EOI 244 . 244)))
+    (semanticdb-table "updateTumorRadii_input.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("argsAsInts" variable nil nil [187 231])
+            ("cellProp" code nil nil [232 268])
+            ("connection" code nil nil [289 321]))          
+      :file "updateTumorRadii_input.py"
+      :pointmax 322
+      :fsize 321
+      :lastmodtime '(21006 20004 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "updateAllTumorArea.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts" include nil nil [20 51])
+            ("omeroScripts" include nil nil [52 87])
+            ("conn" variable nil nil [89 122])
+            ("cellProp" variable nil nil [123 161])
+            ("cellProp" code nil nil [162 187])
+            ("connection" code nil nil [189 221]))          
+      :file "updateAllTumorArea.py"
+      :pointmax 222
+      :fsize 221
+      :lastmodtime '(21006 32919 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "printImageTableProperties.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("argsAsInts" variable nil nil [187 217])
+            ("cellProp" code nil nil [218 258])
+            ("connection" code nil nil [279 311]))          
+      :file "printImageTableProperties.py"
+      :pointmax 312
+      :fsize 311
+      :lastmodtime '(21008 61389 0 0)
+      :unmatched-syntax '(($EOI 312 . 312) ($EOI 326 . 326)))
+    (semanticdb-table "updateExperiment.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("cellProp" code nil nil [187 225])
+            ("connection" code nil nil [246 278]))          
+      :file "updateExperiment.py"
+      :pointmax 279
+      :fsize 278
+      :lastmodtime '(21011 32452 0 0)
+      :unmatched-syntax '(($EOI 279 . 279)))
+    (semanticdb-table "addExperiment.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("cellProp" code nil nil [187 225])
+            ("connection" code nil nil [246 278]))          
+      :file "addExperiment.py"
+      :pointmax 279
+      :fsize 278
+      :lastmodtime '(21011 33372 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "updateNonInitializedAreas.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("cellProp" code nil nil [187 223])
+            ("connection" code nil nil [244 276]))          
+      :file "updateNonInitializedAreas.py"
+      :pointmax 278
+      :fsize 277
+      :lastmodtime '(21011 34337 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "updateProjectTumorArea.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts" include nil nil [20 51])
+            ("omeroScripts" include nil nil [52 87])
+            ("sys" include nil nil [88 98])
+            ("conn" variable nil nil [100 133])
+            ("cellProp" variable nil nil [134 172])
+            ("cellProp" code nil nil [173 224])
+            ("connection" code nil nil [226 258]))          
+      :file "updateProjectTumorArea.py"
+      :pointmax 259
+      :fsize 258
+      :lastmodtime '(21011 40774 0 0)
+      :unmatched-syntax '(($EOI 235 . 235) ($EOI 231 . 231)))
+    (semanticdb-table "downloadImages_input.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("imageIDList" variable nil nil [187 236])
+            ("tables" code nil nil [237 271])
+            ("connection" code nil nil [292 324]))          
+      :file "downloadImages_input.py"
+      :pointmax 328
+      :fsize 327
+      :lastmodtime '(21011 46669 0 0)
+      :unmatched-syntax '(($EOI 328 . 328)))
+    (semanticdb-table "downloadSingleWellImages.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("projectID" variable nil nil [141 170])
+            ("row" variable nil nil [171 194])
+            ("col" variable nil nil [195 218])
+            ("conn" variable nil nil [256 289])
+            ("cellProp" variable nil nil [290 328])
+            ("cellTable" variable nil nil [329 360])
+            ("rowCount" variable nil nil [362 400])
+            ("queryRows" variable nil nil [401 580])
+            ("data" variable nil nil [581 624])
+            ("colNames" variable nil nil [700 741])
+            ("idIndex" variable nil nil [742 777])
+            ("idList" variable nil nil [778 815])
+            ("cellProp" code nil nil [816 847])
+            ("cellTable" code nil nil [849 866])
+            ("connection" code nil nil [908 940]))          
+      :file "downloadSingleWellImages.py"
+      :pointmax 803
+      :fsize 940
+      :lastmodtime '(21015 45079 0 0)
+      :unmatched-syntax nil))
+  :file "!home!bweinstein!cancer_experiments!omeroScripts!utility!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

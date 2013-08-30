@@ -1,0 +1,214 @@
+;; Object test/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "test/"
+  :tables
+  (list
+    (semanticdb-table "experimentTest.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.experiments" include nil nil [20 58])
+            ("omeroScripts.connection" include nil nil [59 103])
+            ("conn" variable nil nil [105 138])
+            ("exp" variable nil nil [139 184])
+            ("connection" code nil nil [186 218]))          
+      :file "experimentTest.py"
+      :pointmax 219
+      :fsize 218
+      :lastmodtime '(21002 34569 0 0)
+      :unmatched-syntax '(($EOI 219 . 219)))
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags nil
+      :file "__init__.py"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(20986 47509 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "test4.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("HOST" variable nil nil [20 38])
+            ("PORT" variable nil nil [39 50])
+            ("USERNAME" variable nil nil [51 74])
+            ("PASSWORD" variable nil nil [75 99])
+            ("omero" include nil nil [101 113])
+            ("omero.gateway" include nil nil [114 141])
+            ("os" include nil nil [142 151])
+            ("print_obj" function
+               (:documentation "
+    Helper method that displays information about OMERO objects.
+    "
+                :arguments 
+                  ( ("obj" variable nil (reparse-symbol function_parameters) [212 215])
+                    ("indent" variable nil (reparse-symbol function_parameters) [217 223]))                  )
+                nil [198 413])
+            ("if" code nil nil [443 2590]))          
+      :file "test4.py"
+      :pointmax 2590
+      :fsize 2589
+      :lastmodtime '(20980 15028 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "test3.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("HOST" variable nil nil [20 38])
+            ("PORT" variable nil nil [39 50])
+            ("USERNAME" variable nil nil [51 74])
+            ("PASSWORD" variable nil nil [75 99])
+            ("omero" include nil nil [101 113])
+            ("omero.gateway" include nil nil [114 141])
+            ("os" include nil nil [142 151])
+            ("print_obj" function
+               (:documentation "
+    Helper method that displays information about OMERO objects.
+    "
+                :arguments 
+                  ( ("obj" variable nil (reparse-symbol function_parameters) [212 215])
+                    ("indent" variable nil (reparse-symbol function_parameters) [217 223]))                  )
+                nil [198 413])
+            ("if" code nil nil [443 2603]))          
+      :file "test3.py"
+      :pointmax 2603
+      :fsize 2602
+      :lastmodtime '(20968 21054 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "updateTableTest.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("conn" variable nil nil [103 136])
+            ("cellProp" variable nil nil [137 175])
+            ("cellProp" code nil nil [176 193])
+            ("cellProp" code nil nil [194 242])
+            ("cellTable" variable nil nil [303 334])
+            ("rowCount" variable nil nil [335 373])
+            ("print" code nil nil [374 388])
+            ("queryRows" variable nil nil [389 518])
+            ("data" variable nil nil [520 563])
+            ("for" code nil nil [564 686])
+            ("colNames" variable nil nil [761 802])
+            ("idIndex" variable nil nil [803 838])
+            ("idList" variable nil nil [839 876])
+            ("cellTable" code nil nil [992 1009])
+            ("connection" code nil nil [1010 1042]))          
+      :file "updateTableTest.py"
+      :pointmax 1043
+      :fsize 1042
+      :lastmodtime '(21001 6312 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "getRadiiTest.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts" include nil nil [20 58])
+            ("" code nil nil [60 105])
+            ("print" code nil nil [106 118])
+            ("print" code nil nil [119 133]))          
+      :file "getRadiiTest.py"
+      :pointmax 134
+      :fsize 133
+      :lastmodtime '(21000 61062 0 0)
+      :unmatched-syntax '(($EOI 134 . 134)))
+    (semanticdb-table "downloadOneWell.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("conn" variable nil nil [103 136])
+            ("cellProp" variable nil nil [137 175])
+            ("cellTable" variable nil nil [176 207])
+            ("rowCount" variable nil nil [209 247])
+            ("queryRows" variable nil nil [248 377])
+            ("data" variable nil nil [378 421])
+            ("colNames" variable nil nil [497 538])
+            ("idIndex" variable nil nil [539 574])
+            ("idList" variable nil nil [575 612])
+            ("cellProp" code nil nil [613 644])
+            ("cellTable" code nil nil [646 663])
+            ("connection" code nil nil [705 737]))          
+      :file "downloadOneWell.py"
+      :pointmax 738
+      :fsize 737
+      :lastmodtime '(21002 40765 0 0)
+      :unmatched-syntax '(($EOI 653 . 653) ($EOI 620 . 620)))
+    (semanticdb-table "addOldExperimentTest.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.connection" include nil nil [20 64])
+            ("omeroScripts.tables" include nil nil [65 101])
+            ("conn" variable nil nil [103 136])
+            ("cellProp" variable nil nil [137 175])
+            ("cellProp" code nil nil [176 224])
+            ("connection" code nil nil [226 258]))          
+      :file "addOldExperimentTest.py"
+      :pointmax 259
+      :fsize 258
+      :lastmodtime '(21002 37956 0 0)
+      :unmatched-syntax '((NAME 176 . 184) ($EOI 259 . 259) (NAME 202 . 210) ($EOI 285 . 285) ($EOI 178 . 178)))
+    (semanticdb-table "printImageTimes.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("conn" variable nil nil [103 136])
+            ("cellProp" variable nil nil [137 175])
+            ("cellTable" variable nil nil [236 267])
+            ("rowCount" variable nil nil [268 306])
+            ("print" code nil nil [307 321])
+            ("queryRows" variable nil nil [322 422])
+            ("data" variable nil nil [424 467])
+            ("for" code nil nil [468 581])
+            ("for" code nil nil [582 695])
+            ("cellTable" code nil nil [697 714])
+            ("connection" code nil nil [715 747]))          
+      :file "printImageTimes.py"
+      :pointmax 748
+      :fsize 747
+      :lastmodtime '(21002 40771 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "updateAllTumorRadii.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts" include nil nil [20 51])
+            ("omeroScripts" include nil nil [52 87])
+            ("conn" variable nil nil [89 122])
+            ("cellProp" variable nil nil [123 161])
+            ("cellProp" code nil nil [162 187])
+            ("connection" code nil nil [189 221]))          
+      :file "updateAllTumorRadii.py"
+      :pointmax 223
+      :fsize 222
+      :lastmodtime '(21001 255 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "chunkTest.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts" include nil nil [20 51])
+            ("moops" variable nil nil [53 71])
+            ("chunkies" variable nil nil [73 108])
+            ("print" code nil nil [110 124]))          
+      :file "chunkTest.py"
+      :pointmax 125
+      :fsize 124
+      :lastmodtime '(21007 36948 0 0)
+      :unmatched-syntax nil)
+
+    (semanticdb-table "testProblemChunk.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("sys" include nil nil [102 112])
+            ("conn" variable nil nil [114 147])
+            ("cellProp" variable nil nil [148 186])
+            ("problemChunk" variable nil nil [188 870])
+            ("cellProp" code nil nil [872 910])
+            ("connection" code nil nil [931 963]))          
+      :file "testProblemChunk.py"
+      :pointmax 967
+      :fsize 966
+      :lastmodtime '(21009 481 0 0)
+      :unmatched-syntax '(($EOI 967 . 967))))
+  :file "!home!bweinstein!cancer_experiments!omeroScripts!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

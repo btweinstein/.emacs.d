@@ -1,0 +1,16 @@
+;; Object virtualenv-20120930.1034/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "virtualenv-20120930.1034/"
+  :tables
+  (list
+    (semanticdb-table "virtualenv-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "virtualenv-autoloads.el"
+      :pointmax 272
+      :fsize 1480
+      :lastmodtime '(21023 40842 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!virtualenv-20120930.1034!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

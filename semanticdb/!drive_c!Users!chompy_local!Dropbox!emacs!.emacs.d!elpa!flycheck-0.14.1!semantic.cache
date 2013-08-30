@@ -1,0 +1,16 @@
+;; Object flycheck-0.14.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "flycheck-0.14.1/"
+  :tables
+  (list
+    (semanticdb-table "flycheck-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "flycheck-autoloads.el"
+      :pointmax 266
+      :fsize 6717
+      :lastmodtime '(21013 1736 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!flycheck-0.14.1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,16 @@
+;; Object drupal-spell-20130520.1854/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "drupal-spell-20130520.1854/"
+  :tables
+  (list
+    (semanticdb-table "drupal-spell-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "drupal-spell-autoloads.el"
+      :pointmax 278
+      :fsize 978
+      :lastmodtime '(21023 40847 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!drupal-spell-20130520.1854!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

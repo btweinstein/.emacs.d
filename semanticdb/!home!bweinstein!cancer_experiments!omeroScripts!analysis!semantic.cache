@@ -1,0 +1,118 @@
+;; Object analysis/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "analysis/"
+  :tables
+  (list
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags nil
+      :file "__init__.py"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(21002 29824 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "plotGrowthCurve.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''Plots the sheEcad growth curves'''" code nil nil [20 57])
+            ("omeroScripts.tables" include nil nil [59 95])
+            ("omeroScripts.connection" include nil nil [96 140])
+            ("matplotlib" include nil nil [141 158])
+            ("matplotlib" code nil nil [159 180])
+            ("matplotlib.ticker" include nil nil [181 212])
+            ("matplotlib.pyplot" include nil nil [213 244])
+            ("numpy" include nil nil [245 263])
+            ("scipy" include nil nil [264 282])
+            ("scipy.stats" include nil nil [283 301])
+            ("traceback" include nil nil [302 318])
+            ("sys" include nil nil [319 329])
+            ("omeroScripts" include nil nil [330 366])
+            ("os" include nil nil [367 376])
+            ("conn" variable nil nil [378 411])
+            ("cellProp" variable nil nil [412 450])
+            ("cellTable" variable nil nil [451 482])
+            ("stdDev" variable nil nil [484 498])
+            ("stdEr" variable nil nil [499 511])
+            ("projectID" variable nil nil [513 541])
+            ("startTimeOffset" variable nil nil [542 578])
+            ("if" code nil nil [710 772]))          
+      :file "plotGrowthCurve.py"
+      :pointmax 5257
+      :fsize 5256
+      :lastmodtime '(21011 44633 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "plotAllTumorTrajectories.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("matplotlib" include nil nil [102 119])
+            ("matplotlib" code nil nil [120 141])
+            ("matplotlib.ticker" include nil nil [142 173])
+            ("matplotlib.pyplot" include nil nil [174 205])
+            ("numpy" include nil nil [206 224])
+            ("scipy" include nil nil [225 243])
+            ("scipy.stats" include nil nil [244 262])
+            ("traceback" include nil nil [263 279])
+            ("sys" include nil nil [280 290])
+            ("omeroScripts" include nil nil [291 327])
+            ("os" include nil nil [328 337])
+            ("projectID" variable nil nil [339 367])
+            ("startTimeOffset" variable nil nil [368 404])
+            ("saveFolder" code nil nil [406 492])
+            ("if" code nil nil [493 555])
+            ("stdDev" variable nil nil [556 570])
+            ("stdEr" variable nil nil [571 583])
+            ("conn" variable nil nil [585 618])
+            ("cellProp" variable nil nil [619 657])
+            ("cellTable" variable nil nil [658 689])
+            ("rowCount" variable nil nil [690 728])
+            ("closeAll" function (:arguments 
+              ( ("table" variable nil (reparse-symbol function_parameters) [780 785])
+                ("conn" variable nil (reparse-symbol function_parameters) [787 791]))              ) nil [767 898])
+            ("makePlotPretty" function nil nil [899 1055]))          
+      :file "plotAllTumorTrajectories.py"
+      :pointmax 8440
+      :fsize 8439
+      :lastmodtime '(21015 48587 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "compareAutomaticVsHandArea.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts.tables" include nil nil [20 56])
+            ("omeroScripts.connection" include nil nil [57 101])
+            ("matplotlib" include nil nil [102 119])
+            ("matplotlib" code nil nil [120 141])
+            ("matplotlib.ticker" include nil nil [142 173])
+            ("matplotlib.pyplot" include nil nil [174 205])
+            ("numpy" include nil nil [206 224])
+            ("scipy" include nil nil [225 243])
+            ("scipy.stats" include nil nil [244 262])
+            ("traceback" include nil nil [263 279])
+            ("sys" include nil nil [280 290])
+            ("omeroScripts" include nil nil [291 327])
+            ("os" include nil nil [328 337])
+            ("handImageIDList" variable nil nil [406 481])
+            ("handAreaList" variable nil nil [482 561])
+            ("startTimeOffset" variable nil nil [563 585])
+            ("projectID" variable nil nil [586 599])
+            ("row" variable nil nil [600 607])
+            ("col" variable nil nil [608 615])
+            ("conn" variable nil nil [617 650])
+            ("cellProp" variable nil nil [651 689])
+            ("cellTable" variable nil nil [690 721])
+            ("rowCount" variable nil nil [722 760])
+            ("saveFolder" code nil nil [762 844])
+            ("if" code nil nil [845 907])
+            ("closeAll" function (:arguments 
+              ( ("table" variable nil (reparse-symbol function_parameters) [958 963])
+                ("conn" variable nil (reparse-symbol function_parameters) [965 969]))              ) nil [945 1076])
+            ("makePlotPretty" function nil nil [1077 1233]))          
+      :file "compareAutomaticVsHandArea.py"
+      :pointmax 3414
+      :fsize 3413
+      :lastmodtime '(21015 51110 0 0)
+      :unmatched-syntax '((INDENT_BLOCK 3312 . 3413) (COLON 3310 . 3311) (TRY 1262 . 1265) (AS 3302 . 3304) (INDENT_BLOCK 3299 . 3400) (COLON 3297 . 3298) (TRY 1262 . 1265) (AS 3289 . 3291) (INDENT_BLOCK 3280 . 3381) (COLON 3278 . 3279) (TRY 1262 . 1265) (AS 3270 . 3272) (INDENT_BLOCK 3223 . 3324) (COLON 3221 . 3222) (TRY 1262 . 1265) (AS 3213 . 3215) (INDENT_BLOCK 3224 . 3325) (COLON 3222 . 3223) (TRY 1262 . 1265) (AS 3214 . 3216) (INDENT_BLOCK 3256 . 3357) (COLON 3254 . 3255) (TRY 1262 . 1265) (AS 3246 . 3248) (INDENT_BLOCK 3258 . 3359) (COLON 3256 . 3257) (TRY 1262 . 1265) (AS 3248 . 3250) (INDENT_BLOCK 3251 . 3352) (COLON 3249 . 3250) (TRY 1262 . 1265) (AS 3241 . 3243) (INDENT_BLOCK 3237 . 3338) (COLON 3235 . 3236) (TRY 1262 . 1265) (AS 3227 . 3229) (INDENT_BLOCK 3233 . 3334) (COLON 3231 . 3232) (TRY 1262 . 1265) (AS 3223 . 3225) (INDENT_BLOCK 3233 . 3334) (COLON 3231 . 3232) (TRY 1262 . 1265) (AS 3223 . 3225) (INDENT_BLOCK 3231 . 3332) (COLON 3229 . 3230) (TRY 1262 . 1265) (AS 3221 . 3223) (INDENT_BLOCK 3224 . 3325) (COLON 3222 . 3223) (TRY 1262 . 1265) (AS 3214 . 3216) (INDENT_BLOCK 3186 . 3287) (COLON 3184 . 3185) (TRY 1262 . 1265) (AS 3176 . 3178) (INDENT_BLOCK 3057 . 3158) (COLON 3055 . 3056) (TRY 1262 . 1265) (AS 3047 . 3049) (INDENT_BLOCK 3029 . 3130) (COLON 3027 . 3028) (TRY 1262 . 1265) (AS 3019 . 3021) (INDENT_BLOCK 3019 . 3120) (COLON 3017 . 3018) (TRY 1262 . 1265) (AS 3009 . 3011) (INDENT_BLOCK 3020 . 3121) (COLON 3018 . 3019) (TRY 1262 . 1265) (AS 3010 . 3012) (INDENT_BLOCK 2604 . 2644) (INDENT_BLOCK 3027 . 3128) (COLON 3025 . 3026) (TRY 1262 . 1265) (AS 3017 . 3019) (INDENT_BLOCK 2604 . 2651) (INDENT_BLOCK 2997 . 3098) (COLON 2995 . 2996) (TRY 1262 . 1265) (AS 2987 . 2989) (INDENT_BLOCK 2604 . 2621) (INDENT_BLOCK 3020 . 3121) (COLON 3018 . 3019) (TRY 1262 . 1265) (AS 3010 . 3012) (INDENT_BLOCK 2604 . 2644) (INDENT_BLOCK 3021 . 3122) (COLON 3019 . 3020) (TRY 1262 . 1265) (AS 3011 . 3013) (INDENT_BLOCK 3044 . 3145) (COLON 3042 . 3043) (TRY 1262 . 1265) (AS 3034 . 3036) (INDENT_BLOCK 3058 . 3159) (COLON 3056 . 3057) (TRY 1262 . 1265) (AS 3048 . 3050) (INDENT_BLOCK 3063 . 3164) (COLON 3061 . 3062) (TRY 1262 . 1265) (AS 3053 . 3055) (INDENT_BLOCK 3018 . 3119) (COLON 3016 . 3017) (TRY 1262 . 1265) (AS 3008 . 3010) (INDENT_BLOCK 3037 . 3138) (COLON 3035 . 3036) (TRY 1262 . 1265) (AS 3027 . 3029) (INDENT_BLOCK 3042 . 3143) (COLON 3040 . 3041) (TRY 1262 . 1265) (AS 3032 . 3034) (INDENT_BLOCK 3018 . 3119) (COLON 3016 . 3017) (TRY 1262 . 1265) (AS 3008 . 3010) (INDENT_BLOCK 3018 . 3119) (COLON 3016 . 3017) (TRY 1262 . 1265) (AS 3008 . 3010) (INDENT_BLOCK 3018 . 3119) (COLON 3016 . 3017) (TRY 1262 . 1265) (AS 3008 . 3010) (INDENT_BLOCK 2985 . 3086) (COLON 2983 . 2984) (TRY 1262 . 1265) (AS 2975 . 2977) (INDENT_BLOCK 2985 . 3086) (COLON 2983 . 2984) (TRY 1262 . 1265) (AS 2975 . 2977) (INDENT_BLOCK 2993 . 3094) (COLON 2991 . 2992) (TRY 1262 . 1265) (AS 2983 . 2985) (INDENT_BLOCK 2957 . 3058) (COLON 2955 . 2956) (TRY 1262 . 1265) (AS 2947 . 2949) (NAME 2654 . 2675) (NEWLINE 2678 . 2679) (INDENT_BLOCK 2933 . 3034) (COLON 2931 . 2932) (TRY 1262 . 1265) (AS 2923 . 2925) (INDENT_BLOCK 2886 . 2987) (COLON 2884 . 2885) (TRY 1262 . 1265) (AS 2876 . 2878) (INDENT_BLOCK 2851 . 2952) (COLON 2849 . 2850) (TRY 1262 . 1265) (AS 2841 . 2843) (NAME 2554 . 2569) (NEWLINE 2572 . 2573) (INDENT_BLOCK 2833 . 2934) (COLON 2831 . 2832) (TRY 1262 . 1265) (AS 2823 . 2825) (INDENT_BLOCK 2828 . 2929) (COLON 2826 . 2827) (TRY 1262 . 1265) (AS 2818 . 2820) (INDENT_BLOCK 2785 . 2886) (COLON 2783 . 2784) (TRY 1262 . 1265) (AS 2775 . 2777) (INDENT_BLOCK 2757 . 2858) (COLON 2755 . 2756) (TRY 1262 . 1265) (AS 2747 . 2749) (INDENT_BLOCK 2740 . 2841) (COLON 2738 . 2739) (TRY 1262 . 1265) (AS 2730 . 2732) (INDENT_BLOCK 2772 . 2873) (COLON 2770 . 2771) (TRY 1262 . 1265) (AS 2762 . 2764) ($EOI 2874 . 2874))))
+  :file "!home!bweinstein!cancer_experiments!omeroScripts!analysis!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

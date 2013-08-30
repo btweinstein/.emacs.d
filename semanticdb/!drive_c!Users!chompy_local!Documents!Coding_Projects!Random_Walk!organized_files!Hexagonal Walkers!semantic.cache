@@ -1,0 +1,384 @@
+;; Object Hexagonal Walkers/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Hexagonal Walkers/"
+  :tables
+  (list
+    (semanticdb-table "Hexagonal_Walker.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Hexagonal_Walker.h" include nil nil [1 30])
+            ("Coordinate.h" include nil nil [31 54])
+            ("Hexagonal_Grid.h" include nil nil [55 82])
+            ("iostream" include (:system-flag t) nil [84 103])
+            ("cmath" include (:system-flag t) nil [104 120])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [172 188])
+                    ("walker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [189 220]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [152 441])
+            ("Hexagonal_Walker" function
+               (:constructor-flag t
+                :parent "Hexagonal_Walker"
+                :arguments 
+                  ( ("spacingVal" variable (:type "int") (reparse-symbol arg-sub-list) [516 531])
+                    ("maxNumberOfMovesVal" variable (:type "int") (reparse-symbol arg-sub-list) [532 556]))                  
+                :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                nil [481 799])
+            ("Hexagonal_Walker" function
+               (:destructor-flag t
+                :parent "Hexagonal_Walker"
+                :type "void")
+                nil [801 842])
+            ("Hexagonal_Walker" function
+               (:constructor-flag t
+                :parent "Hexagonal_Walker"
+                :arguments 
+                  ( ("walker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [898 929]))                  
+                :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                nil [863 1126])
+            ("getDistance" function
+               (:parent "Hexagonal_Walker"
+                :type "double")
+                nil [1216 1334])
+            ("getSpacing" function
+               (:parent "Hexagonal_Walker"
+                :type "int")
+                nil [1375 1439])
+            ("getGrid" function
+               (:parent "Hexagonal_Walker"
+                :constant-flag t
+                :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                nil [1441 1517])
+            ("getLocation" function
+               (:parent "Hexagonal_Walker"
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [1519 1592])
+            ("getDirectionDistribution" function
+               (:parent "Hexagonal_Walker"
+                :constant-flag t
+                :type ("array" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil)
+                          ("6"))                        
+                      :type "class")
+                      nil nil))
+                nil [1594 1693])
+            ("getTrail" function
+               (:parent "Hexagonal_Walker"
+                :constant-flag t
+                :type ("Trail" type (:type "class") nil nil))
+                nil [1695 1764]))          
+      :file "Hexagonal_Walker.cpp"
+      :pointmax 1765
+      :fsize 1764
+      :lastmodtime '(21023 41436 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Hexagonal_Walker.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("HEXAGONAL_WALKER_H" variable (:constant-flag t) nil [36 54])
+            ("array" include (:system-flag t) nil [56 72])
+            ("memory" include (:system-flag t) nil [73 90])
+            ("Hexagonal_Grid.h" include nil nil [92 119])
+            ("Coordinate.h" include nil nil [120 143])
+            ("Trail.h" include nil nil [144 162])
+            ("Hexagonal_Walker" type
+               (:members 
+                  ( ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [221 231])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [232 257]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [194 258])
+                    ("public" label nil (reparse-symbol classsubparts) [263 270])
+                    ("Hexagonal_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("spacing" variable (:type "int") (reparse-symbol arg-sub-list) [333 345])
+                            ("maxNumberOfMoves" variable (:type "int") (reparse-symbol arg-sub-list) [346 367]))                          
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [316 368])
+                    ("Hexagonal_Walker" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [377 405])
+                    ("Hexagonal_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [432 457]))                          
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [415 458])
+                    ("go" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [574 578]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [558 583])
+                    ("spawnNew" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [592 640])
+                    ("clone" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [700 745])
+                    ("getDistance" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type "double")
+                        (reparse-symbol classsubparts) [783 818])
+                    ("getSpacing" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type "int")
+                        (reparse-symbol classsubparts) [827 858])
+                    ("getGrid" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :constant-flag t
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [867 913])
+                    ("getLocation" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [922 961])
+                    ("getDirectionDistribution" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :constant-flag t
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [970 1031])
+                    ("getTrail" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :constant-flag t
+                        :type ("Trail" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1040 1078])
+                    ("protected" label nil (reparse-symbol classsubparts) [1084 1094])
+                    ("spacing" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [1103 1121])
+                    ("maxNumberOfMoves" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [1130 1157])
+                    ("grid" variable (:type ("Hexagonal_Grid" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1166 1186])
+                    ("location" variable (:type ("Coordinate" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1195 1215])
+                    ("distribution" variable (:type ("array" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil)
+                              ("6"))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1224 1251])
+                    ("trail" variable (:type ("Trail" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1328 1340])
+                    ("private" label nil (reparse-symbol classsubparts) [1345 1353]))                  
+                :type "class")
+                nil [164 1356]))          
+      :file "Hexagonal_Walker.h"
+      :pointmax 1387
+      :fsize 1386
+      :lastmodtime '(21023 41435 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HEXAGONAL_WALKER_H")
+          )
+)
+    (semanticdb-table "Random_Walker.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Random_Walker.h" include nil nil [1 27])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [76 92])
+                    ("walker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Random_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [93 121]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [56 339])
+            ("Random_Walker" function
+               (:constructor-flag t
+                :parent "Random_Walker"
+                :arguments 
+                  ( ("spacing" variable (:type "int") (reparse-symbol arg-sub-list) [408 420])
+                    ("maxNumberOfMovesVal" variable (:type "int") (reparse-symbol arg-sub-list) [421 445]))                  
+                :type ("Random_Walker" type (:type "class") nil nil))
+                nil [379 500])
+            ("Random_Walker" function
+               (:destructor-flag t
+                :parent "Random_Walker"
+                :type "void")
+                nil [502 537])
+            ("Random_Walker" function
+               (:constructor-flag t
+                :parent "Random_Walker"
+                :arguments 
+                  ( ("sourceWalker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Random_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [568 602]))                  
+                :type ("Random_Walker" type (:type "class") nil nil))
+                nil [539 641])
+            ("clone" function
+               (:pointer 1
+                :parent "Random_Walker"
+                :type ("Random_Walker" type (:type "class") nil nil))
+                nil [687 772])
+            ("spawnNew" function
+               (:pointer 1
+                :parent "Random_Walker"
+                :type ("Random_Walker" type (:type "class") nil nil))
+                nil [774 882])
+            ("go" function
+               (:parent "Random_Walker"
+                :arguments 
+                  ( ("numTimes" variable (:type "int") (reparse-symbol arg-sub-list) [908 921]))                  
+                :type "void")
+                nil [884 1232]))          
+      :file "Random_Walker.cpp"
+      :pointmax 1233
+      :fsize 1232
+      :lastmodtime '(21023 41435 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Random_Walker.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("RANDOM_WALKER_H" variable (:constant-flag t) nil [33 48])
+            ("memory" include (:system-flag t) nil [50 67])
+            ("Hexagonal_Walker.h" include nil nil [69 98])
+            ("Random_Walker" type
+               (:superclasses 
+                  ( ("Hexagonal_Walker" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [180 190])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Random_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [191 213]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [153 214])
+                    ("public" label nil (reparse-symbol classsubparts) [220 227])
+                    ("Random_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("spacing" variable (:type "int") (reparse-symbol arg-sub-list) [289 301])
+                            ("maxNumberOfMovesVal" variable (:type "int") (reparse-symbol arg-sub-list) [302 326]))                          
+                        :type ("Random_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [275 327])
+                    ("Random_Walker" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [336 361])
+                    ("Random_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Random_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [384 406]))                          
+                        :type ("Random_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [370 407])
+                    ("go" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [466 470]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [450 471])
+                    ("spawnNew" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Random_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [480 521])
+                    ("clone" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Random_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [530 568])
+                    ("protected" label nil (reparse-symbol classsubparts) [573 583])
+                    ("private" label nil (reparse-symbol classsubparts) [588 596]))                  
+                :type "class")
+                nil [101 599]))          
+      :file "Random_Walker.h"
+      :pointmax 627
+      :fsize 626
+      :lastmodtime '(21023 41437 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("RANDOM_WALKER_H")
+          )
+))
+  :file "!drive_c!Users!chompy_local!Documents!Coding_Projects!Random_Walk!organized_files!Hexagonal Walkers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

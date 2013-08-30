@@ -1,0 +1,16 @@
+;; Object dash-20130819.1125/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "dash-20130819.1125/"
+  :tables
+  (list
+    (semanticdb-table "dash-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "dash-autoloads.el"
+      :pointmax 254
+      :fsize 470
+      :lastmodtime '(21023 40848 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!dash-20130819.1125!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

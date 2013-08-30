@@ -1,0 +1,55 @@
+;; Object experiments/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "experiments/"
+  :tables
+  (list
+    (semanticdb-table "SHECAD_Growth_Curve.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''Responsible for returning an experiment.'''" code nil nil [1 47])
+            ("omeroScripts.queries" include nil nil [49 87])
+            ("datetime" include nil nil [88 109])
+            ("matplotlib.dates" include nil nil [110 144])
+            ("getExperiment" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol function_parameters) [253 257]))              ) nil [235 1901]))          
+      :file "SHECAD_Growth_Curve.py"
+      :pointmax 1901
+      :fsize 1900
+      :lastmodtime '(21010 29456 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''
+Each project will correspond to different intial conditions that will
+be set in a python file. Appropriate annotations will be uploaded to each
+dataset in the experiment.
+
+Analysis data will then be stored via python tables that can be queried quickly for future analysis. There will have to be some way to choose whether to reanalyze or get that data, but we will deal with that later.
+'''" code nil nil [1 395])
+            ("os" include nil nil [397 406])
+            ("glob" include nil nil [407 418])
+            ("__all__" variable nil nil [420 476]))          
+      :file "__init__.py"
+      :pointmax 477
+      :fsize 476
+      :lastmodtime '(21011 32565 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "SHGFRP_Growth_Curve.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''Responsible for returning an experiment.'''" code nil nil [1 47])
+            ("omeroScripts.queries" include nil nil [49 87])
+            ("datetime" include nil nil [88 109])
+            ("matplotlib.dates" include nil nil [110 144])
+            ("omeroScripts.experiment" include nil nil [145 189])
+            ("getExperiment" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol function_parameters) [253 257]))              ) nil [235 1986]))          
+      :file "SHGFRP_Growth_Curve.py"
+      :pointmax 1986
+      :fsize 1985
+      :lastmodtime '(21011 31724 0 0)
+      :unmatched-syntax nil))
+  :file "!home!bweinstein!cancer_experiments!omeroScripts!experiments!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

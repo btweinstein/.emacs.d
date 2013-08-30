@@ -1,0 +1,16 @@
+;; Object f-0.6.0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "f-0.6.0/"
+  :tables
+  (list
+    (semanticdb-table "f-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "f-autoloads.el"
+      :pointmax 245
+      :fsize 431
+      :lastmodtime '(21013 1734 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!f-0.6.0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

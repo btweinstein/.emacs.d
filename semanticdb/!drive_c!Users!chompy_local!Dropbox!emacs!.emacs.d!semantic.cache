@@ -1,0 +1,66 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables
+  (list
+    (semanticdb-table "init.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [32 64])
+            ("package" include nil nil [92 110])
+            ("add-to-list" code nil nil [111 198])
+            ("add-to-list" code nil nil [199 280])
+            ("package-initialize" code nil nil [281 301])
+            ("add-to-list" code nil nil [327 378])
+            ("unless" code nil nil [379 641])
+            ("el-get" code nil nil [642 656])
+            ("dos2unix" function (:user-visible-flag t) nil [712 883])
+            ("ido" include nil nil [915 929])
+            ("setq" code nil nil [930 963])
+            ("setq" code nil nil [964 987])
+            ("ido-mode" code nil nil [988 1000])
+            ("jedi" include nil nil [1029 1050])
+            ("setq" code nil nil [1052 1076])
+            ("jedi" include nil nil [1077 1092])
+            ("add-hook" code nil nil [1093 1133])
+            ("global-auto-complete-mode" code nil nil [1135 1164])
+            ("setq" code nil nil [1165 1194])
+            ("ecb" include nil nil [1203 1217])
+            ("ecb-autoloads" include nil nil [1218 1242])
+            ("setq" code nil nil [1243 1269])
+            ("setq" code nil nil [1271 1414])
+            ("setq" code nil nil [1415 1588])
+            ("semantic-mode" code nil nil [1653 1670])
+            ("global-set-key" code nil nil [1691 1737])
+            ("global-set-key" code nil nil [1738 1788])
+            ("global-set-key" code nil nil [1789 1841])
+            ("global-set-key" code nil nil [1842 1892])
+            ("tex-site" include nil nil [1904 1923])
+            ("tex-mik" include nil nil [1924 1942])
+            ("setq" code nil nil [1944 1966])
+            ("setq" code nil nil [1967 1990])
+            ("setq-default" code nil nil [1991 2020])
+            ("add-hook" code nil nil [2022 2067])
+            ("if" code nil nil [2127 2248])
+            ("add-hook" code nil nil [2249 2293])
+            ("add-hook" code nil nil [2295 2338])
+            ("setq" code nil nil [2339 2371])
+            ("setq" code nil nil [2373 2394])
+            ("global-font-lock-mode" code nil nil [2395 2420])
+            ("setq" code nil nil [2422 2452])
+            ("add-hook" code nil nil [2494 2537])
+            ("add-hook" code nil nil [2555 2646])
+            ("if" code nil nil [2673 2802])
+            ("ispell" include nil nil [2803 2820])
+            ("setq" code nil nil [2821 2859])
+            ("egg" include nil nil [2867 2881])
+            ("custom-set-variables" code nil nil [2967 3444])
+            ("custom-set-faces" code nil nil [3445 3684]))          
+      :file "init.el"
+      :pointmax 3653
+      :fsize 3812
+      :lastmodtime '(21023 42365 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

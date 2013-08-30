@@ -1,0 +1,16 @@
+;; Object cdlatex-4.0/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cdlatex-4.0/"
+  :tables
+  (list
+    (semanticdb-table "cdlatex-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "cdlatex-autoloads.el"
+      :pointmax 263
+      :fsize 2940
+      :lastmodtime '(21015 24840 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!cdlatex-4.0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

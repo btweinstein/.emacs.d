@@ -1,0 +1,16 @@
+;; Object egg-20130702.925/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "egg-20130702.925/"
+  :tables
+  (list
+    (semanticdb-table "egg-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "egg-autoloads.el"
+      :pointmax 251
+      :fsize 2933
+      :lastmodtime '(21023 41955 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!egg-20130702.925!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

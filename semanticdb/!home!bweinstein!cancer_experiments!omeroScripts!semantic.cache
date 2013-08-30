@@ -1,0 +1,186 @@
+;; Object omeroScripts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "omeroScripts/"
+  :tables
+  (list
+    (semanticdb-table "connection.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omero.gateway" include nil nil [1 39])
+            ("credentials" include nil nil [40 58])
+            ("os" include nil nil [59 68])
+            ("sys" include nil nil [69 79])
+            ("getConnection" function nil nil [132 418])
+            ("closeConnection" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol function_parameters) [439 443]))              ) nil [419 471]))          
+      :file "connection.py"
+      :pointmax 471
+      :fsize 470
+      :lastmodtime '(20994 48085 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "credentials.py"
+      :file "credentials.py"
+      :fsize 188
+      :lastmodtime '(20980 13813 0 0))
+    (semanticdb-table "queries.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''Responsible for handling common queries'''" code nil nil [1 46])
+            ("getAllProjectImages" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol function_parameters) [72 76])
+                ("projectID" variable nil (reparse-symbol function_parameters) [78 87]))              ) nil [48 413]))          
+      :file "queries.py"
+      :pointmax 430
+      :fsize 849
+      :lastmodtime '(21001 353 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "__init__.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("__all__" variable nil nil [1 24]))          
+      :file "__init__.py"
+      :pointmax 25
+      :fsize 24
+      :lastmodtime '(20980 13007 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "tables.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''Responsible for populating the pytables interface with our desired data.'''" code nil nil [1 79])
+            ("omero" include nil nil [81 93])
+            ("sys" include nil nil [94 104])
+            ("omero.tables" include nil nil [105 131])
+            ("omeroScripts.experiments" include nil nil [132 170])
+            ("omeroScripts.connection" include nil nil [171 215])
+            ("shutil" include nil nil [216 229])
+            ("os" include nil nil [230 239])
+            ("omeroScripts" include nil nil [240 276])
+            ("omeroScripts" include nil nil [277 315])
+            ("omeroScripts" include nil nil [316 348])
+            ("omero.util" include nil nil [349 382])
+            ("glob" include nil nil [383 394])
+            ("re" include nil nil [395 404])
+            ("cellProperties" type
+               (:members 
+                  ( ("_tableID" variable nil (reparse-symbol indented_block_body) [481 493])
+                    ("_tableName" variable nil (reparse-symbol indented_block_body) [498 527])
+                    ("_maxNameSize" variable nil (reparse-symbol indented_block_body) [532 549])
+                    ("_cellColumns" variable nil (reparse-symbol indented_block_body) [741 1929])
+                    ("conn" variable nil (reparse-symbol indented_block_body) [1935 1946])
+                    ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [1986 2002]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1965 1969])
+                            ("conn" variable nil (reparse-symbol function_parameters) [1971 1975]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1952 2003])
+                    ("create" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2019 2023]))                          )
+                        (reparse-symbol indented_block_body) [2008 2338])
+                    ("getOriginalFile" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2363 2367]))                          )
+                        (reparse-symbol indented_block_body) [2343 2460])
+                    ("getTable" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2478 2482]))                          )
+                        (reparse-symbol indented_block_body) [2465 2609])
+                    ("checkIfCreated" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2633 2637]))                          )
+                        (reparse-symbol indented_block_body) [2614 2896])
+                    ("delete" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2912 2916]))                          )
+                        (reparse-symbol indented_block_body) [2901 3191])
+                    ("addProperties" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3214 3218])
+                            ("experimentName" variable nil (reparse-symbol function_parameters) [3220 3234]))                          )
+                        (reparse-symbol indented_block_body) [3196 4433])
+                    ("updateTumorArea" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [5719 5723])
+                            ("idList" variable nil (reparse-symbol function_parameters) [5725 5731]))                          )
+                        (reparse-symbol indented_block_body) [5699 8488])
+                    ("updateAllAreas" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9514 9518]))                          )
+                        (reparse-symbol indented_block_body) [9495 9904])
+                    ("downloadImages" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [9928 9932])
+                            ("idList" variable nil (reparse-symbol function_parameters) [9934 9940]))                          )
+                        (reparse-symbol indented_block_body) [9909 10748])
+                    ("printImageTableData" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [10777 10781])
+                            ("imageID" variable nil (reparse-symbol function_parameters) [10783 10790]))                          )
+                        (reparse-symbol indented_block_body) [10753 11241]))                  
+                :type "class")
+                nil [406 11241])
+            ("chunks" function (:arguments 
+              ( ("list" variable nil (reparse-symbol function_parameters) [11253 11257])
+                ("n" variable nil (reparse-symbol function_parameters) [11259 11260]))              ) nil [11242 11320])
+            ("deleteTempImages" function nil nil [11321 11812]))          
+      :file "tables.py"
+      :pointmax 11813
+      :fsize 11812
+      :lastmodtime '(21011 40665 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "experiment.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("'''Utility scripts to upload data to the server dealing with experimental information.'''" code nil nil [1 90])
+            ("omeroScripts.connection" include nil nil [92 136])
+            ("omeroScripts.queries" include nil nil [137 175])
+            ("re" include nil nil [176 185])
+            ("getRowAndColumn" function (:arguments 
+              ( ("imageList" variable nil (reparse-symbol function_parameters) [207 216]))              ) nil [187 1285]))          
+      :file "experiment.py"
+      :pointmax 1285
+      :fsize 1284
+      :lastmodtime '(21010 29358 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "imageJConnect.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("omeroScripts" include nil nil [1 20])
+            ("subprocess" include nil nil [21 48])
+            ("csv" include nil nil [49 59])
+            ("omeroScripts" include nil nil [60 96])
+            ("os" include nil nil [97 106])
+            ("'''Responsible for running ImageJ scripts on queried images'''" code nil nil [108 170])
+            ("locateTumorArea" function nil nil [172 1624]))          
+      :file "imageJConnect.py"
+      :pointmax 1633
+      :fsize 1632
+      :lastmodtime '(21006 32325 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "environment.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("queryFolder" variable nil nil [20 55])
+            ("tumorSelectionFolder" variable nil nil [56 119])
+            ("resultsFolder" variable nil nil [120 173]))          
+      :file "environment.py"
+      :pointmax 174
+      :fsize 173
+      :lastmodtime '(21011 44082 0 0)
+      :unmatched-syntax nil))
+  :file "!home!bweinstein!cancer_experiments!omeroScripts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,128 @@
+clear
+potato
+ls
+mkdir test
+ls
+cd ..
+ls
+mv *test* ./omeroScripts/test
+ls
+mv *Test* ./omeroScripts/test
+ls
+cd ./omeroScripts
+ls
+cd ./test
+ls
+ls
+chmod u+x experimentTest.py
+python ./experimentTest*
+ls
+python ./experimentTest*
+ls
+cd ..
+ls
+cd ./experiments
+ls
+cd ..
+ls
+cd ./experiments
+ls
+cd .
+ls
+cd ..
+ls
+cd ./tests
+ls
+cd ./test*
+ls
+experimentTest.py
+./experimentTest.py
+./experimentTest.py
+python ./experimentTest.py
+ls
+python ./experimentTest.py
+ls
+ls
+python ./experimentTest.py
+ls
+python experimentTest.py
+python
+ls
+cd ..
+ls
+cd ./experiment.py
+ls
+cd ./Experiment
+ls
+clear
+ls
+exit
+ls
+python experimentTest.py
+ls
+python experimentTest.py
+ls
+python SHECAD_Growth_Curve.py
+ls
+lss
+python
+ls
+python experimentTest.py
+ls
+omero start
+omero admin start
+ls
+python experimentTest.py
+ls
+omero web start
+python
+ls
+rm potato2
+ls
+rm potato2.py
+l
+python
+ls
+cd ..
+ls
+ls
+cd ./test
+ls
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+cd ./test
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+python experimentTest.py
+ls
+clear
+ls
+clear
+ls
+python
+ls
+cd ./test
+ls
+chmod u+x updateTableTest.py
+ls
+./updateTableTest.py
+python updateTableTest.py
+python updateTableTest.py
+python updateTableTest.py
+python updateTableTest.py
+python updateTableTest.py
+ls
+python updateTableTest.py
+python
+ls
+cd ./test
+l
+clear
+ls

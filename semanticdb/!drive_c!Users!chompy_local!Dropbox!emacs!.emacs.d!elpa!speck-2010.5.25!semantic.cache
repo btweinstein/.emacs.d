@@ -1,0 +1,16 @@
+;; Object speck-2010.5.25/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "speck-2010.5.25/"
+  :tables
+  (list
+    (semanticdb-table "speck-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "speck-autoloads.el"
+      :pointmax 257
+      :fsize 1498
+      :lastmodtime '(21013 3245 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!speck-2010.5.25!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

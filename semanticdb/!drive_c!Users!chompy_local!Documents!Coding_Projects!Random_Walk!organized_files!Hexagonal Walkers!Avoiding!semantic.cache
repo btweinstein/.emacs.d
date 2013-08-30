@@ -1,0 +1,409 @@
+;; Object Avoiding/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Avoiding/"
+  :tables
+  (list
+    (semanticdb-table "Avoiding_Walker.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Avoiding_Walker.h" include nil nil [1 29])
+            ("boost/random/discrete_distribution.hpp" include (:system-flag t) nil [31 80])
+            ("array" include (:system-flag t) nil [82 98])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [139 155])
+                    ("walker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [156 186]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [119 466])
+            ("Avoiding_Walker" function
+               (:constructor-flag t
+                :parent "Avoiding_Walker"
+                :arguments 
+                  ( ("spacingVal" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [541 563])
+                    ("maxNumberOfMovesVal" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [564 594])
+                    ("g_value" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [595 617]))                  
+                :type ("Avoiding_Walker" type (:type "class") nil nil))
+                nil [508 724])
+            ("Avoiding_Walker" function
+               (:destructor-flag t
+                :parent "Avoiding_Walker"
+                :type "void")
+                nil [726 766])
+            ("Avoiding_Walker" function
+               (:constructor-flag t
+                :parent "Avoiding_Walker"
+                :arguments 
+                  ( ("sourceWalker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [801 837]))                  
+                :type ("Avoiding_Walker" type (:type "class") nil nil))
+                nil [768 988])
+            ("chooseIndexBasedOnProb" function
+               (:parent "Avoiding_Walker"
+                :arguments 
+                  ( ("probabilities" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1107 1145]))                  
+                :type "int")
+                nil [1063 1312]))          
+      :file "Avoiding_Walker.cpp"
+      :pointmax 1313
+      :fsize 1312
+      :lastmodtime '(21023 41467 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Avoiding_Walker.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("AVOIDING_WALKER_H" variable (:constant-flag t) nil [35 52])
+            ("boost/random/random_device.hpp" include (:system-flag t) nil [54 95])
+            ("Hexagonal_Walker.h" include nil nil [97 126])
+            ("Avoiding_Walker" type
+               (:superclasses 
+                  ( ("Hexagonal_Walker" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [251 261])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Avoiding_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [262 286]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [224 287])
+                    ("public" label nil (reparse-symbol classsubparts) [293 300])
+                    ("Avoiding_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("spacingVal" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [360 382])
+                            ("maxNumberOfMovesVal" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [383 413])
+                            ("g_value" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [414 436]))                          
+                        :type ("Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [344 437])
+                    ("Avoiding_Walker" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [446 473])
+                    ("Avoiding_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Avoiding_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [498 522]))                          
+                        :type ("Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [482 523])
+                    ("go" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [573 577]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [557 582])
+                    ("spawnNew" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [591 638])
+                    ("clone" function
+                       (:pure-virtual-flag t
+                        :prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [647 691])
+                    ("chooseIndexBasedOnProb" function
+                       (:prototype-flag t
+                        :typemodifiers ("virtual")
+                        :arguments 
+                          ( ("probabilities" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("array" type
+                                     (:template-specifier 
+                                        ( ("double" type nil nil nil)
+                                          ("6"))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [764 802]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [729 803])
+                    ("protected" label nil (reparse-symbol classsubparts) [808 818])
+                    ("avoiding_Intensity" variable (:type "double") (reparse-symbol classsubparts) [827 853])
+                    ("rand_dev" variable (:type ("boost::random::random_device" type (:type "class") nil nil)) (reparse-symbol classsubparts) [862 900])
+                    ("private" label nil (reparse-symbol classsubparts) [905 913]))                  
+                :type "class")
+                nil [170 917]))          
+      :file "Avoiding_Walker.h"
+      :pointmax 947
+      :fsize 946
+      :lastmodtime '(21023 41466 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("AVOIDING_WALKER_H")
+          )
+)
+    (semanticdb-table "Self_Avoiding_Walker.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Self_Avoiding_Walker.h" include nil nil [1 34])
+            ("array" include (:system-flag t) nil [36 52])
+            ("cmath" include (:system-flag t) nil [53 69])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [120 136])
+                    ("walker" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [137 172]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [100 457])
+            ("Self_Avoiding_Walker" function
+               (:constructor-flag t
+                :parent "Self_Avoiding_Walker"
+                :arguments 
+                  ( ("spacingVal" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [528 550])
+                    ("maxNumberOfMovesVal" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [551 582])
+                    ("g_value" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [583 605]))                  
+                :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                nil [485 682])
+            ("Self_Avoiding_Walker" function
+               (:destructor-flag t
+                :parent "Self_Avoiding_Walker"
+                :type "void")
+                nil [684 744])
+            ("spawnNew" function
+               (:pointer 1
+                :parent "Self_Avoiding_Walker"
+                :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                nil [790 939])
+            ("clone" function
+               (:pointer 1
+                :parent "Self_Avoiding_Walker"
+                :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                nil [941 1047])
+            ("go" function
+               (:parent "Self_Avoiding_Walker"
+                :arguments 
+                  ( ("numTimes" variable (:type "int") (reparse-symbol arg-sub-list) [1079 1092]))                  
+                :type "void")
+                nil [1049 1269])
+            ("chooseNewCoordinate" function
+               (:parent "Self_Avoiding_Walker"
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [1292 1605])
+            ("getCoordinateProbabilities" function
+               (:parent "Self_Avoiding_Walker"
+                :arguments 
+                  ( ("neighbors" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("Coordinate" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1699 1737]))                  
+                :type ("array" type
+                     (:template-specifier 
+                        ( ("double" type nil nil nil)
+                          ("6"))                        
+                      :type "class")
+                      nil nil))
+                nil [1633 2226]))          
+      :file "Self_Avoiding_Walker.cpp"
+      :pointmax 2227
+      :fsize 2226
+      :lastmodtime '(21023 41466 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Self_Avoiding_Walker.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("SELF_AVOIDING_WALKER_H" variable (:constant-flag t) nil [40 62])
+            ("array" include (:system-flag t) nil [64 80])
+            ("memory" include (:system-flag t) nil [81 98])
+            ("Avoiding_Walker.h" include nil nil [100 128])
+            ("Coordinate.h" include nil nil [129 152])
+            ("Self_Avoiding_Walker" type
+               (:superclasses 
+                  ( ("Avoiding_Walker" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [239 249])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [250 279]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [212 280])
+                    ("public" label nil (reparse-symbol classsubparts) [286 293])
+                    ("Self_Avoiding_Walker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("spacingVal" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [323 345])
+                            ("maxNumberOfMovesVal" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [346 377])
+                            ("g_value" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [378 400]))                          
+                        :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [302 401])
+                    ("Self_Avoiding_Walker" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [410 442])
+                    ("go" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("numTimes" variable (:type "int") (reparse-symbol arg-sub-list) [501 514]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [493 515])
+                    ("spawnNew" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [524 572])
+                    ("clone" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("virtual")
+                        :type ("Self_Avoiding_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [581 626])
+                    ("getCoordinateProbabilities" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("neighbors" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("array" type
+                                     (:template-specifier 
+                                        ( ("Coordinate" type nil nil nil)
+                                          ("6"))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [712 750]))                          
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("double" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [668 757])
+                    ("protected" label nil (reparse-symbol classsubparts) [763 773])
+                    ("private" label nil (reparse-symbol classsubparts) [822 830])
+                    ("chooseNewCoordinate" function
+                       (:prototype-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [839 872]))                  
+                :type "class")
+                nil [154 875]))          
+      :file "Self_Avoiding_Walker.h"
+      :pointmax 910
+      :fsize 909
+      :lastmodtime '(21023 41463 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SELF_AVOIDING_WALKER_H")
+          )
+))
+  :file "!drive_c!Users!chompy_local!Documents!Coding_Projects!Random_Walk!organized_files!Hexagonal Walkers!Avoiding!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

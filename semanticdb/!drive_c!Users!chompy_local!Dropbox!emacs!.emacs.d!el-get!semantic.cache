@@ -1,0 +1,16 @@
+;; Object el-get/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "el-get/"
+  :tables
+  (list
+    (semanticdb-table ".loaddefs.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file ".loaddefs.el"
+      :pointmax 7729
+      :fsize 7728
+      :lastmodtime '(20986 38373 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!el-get!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

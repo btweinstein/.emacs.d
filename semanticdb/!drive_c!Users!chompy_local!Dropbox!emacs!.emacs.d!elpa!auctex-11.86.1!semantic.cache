@@ -1,0 +1,122 @@
+;; Object auctex-11.86.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "auctex-11.86.1/"
+  :tables
+  (list
+    (semanticdb-table "auctex-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("bib-cite-minor-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [343 623])
+            ("turn-on-bib-cite" function (:prototype-flag t) nil [625 722])
+            ("defalias" code nil nil [962 1000])
+            ("context-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [1002 1279])
+            ("context-en-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [1531 1834])
+            ("context-nl-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [2086 2387])
+            ("font-latex-setup" function (:prototype-flag t) nil [2640 2768])
+            ("BibTeX-auto-store" function (:prototype-flag t) nil [3042 3206])
+            ("add-to-list" code nil nil [3208 3266])
+            ("TeX-latex-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [3268 3583])
+            ("add-to-list" code nil nil [3585 3644])
+            ("docTeX-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [3646 3847])
+            ("defalias" code nil nil [3849 3889])
+            ("multi-prompt" function (:prototype-flag t) nil [4175 4615])
+            ("multi-prompt-key-value" function (:prototype-flag t) nil [4617 5303])
+            ("preview-install-styles" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [5600 6136])
+            ("LaTeX-preview-setup" function (:prototype-flag t) nil [6138 6358])
+            ("add-hook" code nil nil [6360 6409])
+            ("preview-report-bug" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [6411 6511])
+            ("TeX-tex-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [6844 7296])
+            ("TeX-plain-tex-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7298 7626])
+            ("TeX-auto-generate" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7628 7815])
+            ("TeX-auto-generate-global" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7817 7939])
+            ("ams-tex-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7941 8254])
+            ("TeX-submit-bug-report" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8256 8616])
+            ("TeX-install-toolbar" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8893 8989])
+            ("LaTeX-install-toolbar" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8991 9091])
+            ("TeX-fold-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [9323 9424])
+            ("defalias" code nil nil [9426 9466])
+            ("tex-font-setup" function (:prototype-flag t) nil [9711 9800])
+            ("defalias" code nil nil [10047 10085])
+            ("TeX-texinfo-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [10087 10334])
+            ("japanese-plain-tex-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [10602 10784])
+            ("japanese-latex-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [10786 10956])
+            ("tex-site" include nil nil [11188 11207])
+            ("texmathp" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [11468 11795])
+            ("texmathp-match-switch" function (:prototype-flag t) nil [11797 11937])
+            ("toolbarx-install-toolbar" function (:prototype-flag t) nil [12172 12220])
+            ("auctex-autoloads" package nil nil [13788 13815]))          
+      :file "auctex-autoloads.el"
+      :pointmax 13969
+      :fsize 13968
+      :lastmodtime '(21011 53947 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "tex-site.el"
+      :file "tex-site.el"
+      :fsize 5308
+      :lastmodtime '(21011 55512 0 0)))
+  :file "!drive_c!Users!chompy_local!Dropbox!emacs!.emacs.d!elpa!auctex-11.86.1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

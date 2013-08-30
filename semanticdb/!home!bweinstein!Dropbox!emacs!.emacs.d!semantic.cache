@@ -1,0 +1,46 @@
+;; Object .emacs.d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file ".emacs.d/"
+  :tables
+  (list
+    (semanticdb-table "init.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [32 64])
+            ("package" include nil nil [92 110])
+            ("add-to-list" code nil nil [111 197])
+            ("add-to-list" code nil nil [198 278])
+            ("package-initialize" code nil nil [279 299])
+            ("add-to-list" code nil nil [325 376])
+            ("unless" code nil nil [377 639])
+            ("el-get" code nil nil [640 654])
+            ("ido" include nil nil [687 701])
+            ("setq" code nil nil [702 735])
+            ("setq" code nil nil [736 759])
+            ("ido-mode" code nil nil [760 772])
+            ("jedi" include nil nil [801 822])
+            ("setq" code nil nil [824 848])
+            ("jedi" include nil nil [849 864])
+            ("add-hook" code nil nil [865 905])
+            ("global-auto-complete-mode" code nil nil [907 936])
+            ("setq" code nil nil [937 966])
+            ("ecb" include nil nil [975 989])
+            ("ecb-autoloads" include nil nil [990 1014])
+            ("setq" code nil nil [1015 1041])
+            ("setq" code nil nil [1043 1121])
+            ("setq" code nil nil [1122 1295])
+            ("semantic-mode" code nil nil [1361 1378])
+            ("global-set-key" code nil nil [1400 1446])
+            ("global-set-key" code nil nil [1447 1497])
+            ("global-set-key" code nil nil [1498 1550])
+            ("global-set-key" code nil nil [1551 1601])
+            ("custom-set-variables" code nil nil [1602 1878])
+            ("custom-set-faces" code nil nil [1879 2118]))          
+      :file "init.el"
+      :pointmax 2116
+      :fsize 2187
+      :lastmodtime '(20995 37555 0 0)
+      :unmatched-syntax nil))
+  :file "!home!bweinstein!Dropbox!emacs!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

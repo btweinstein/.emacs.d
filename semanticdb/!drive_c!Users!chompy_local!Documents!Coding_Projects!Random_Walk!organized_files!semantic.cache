@@ -1,0 +1,1097 @@
+;; Object organized_files/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "organized_files/"
+  :tables
+  (list
+    (semanticdb-table "Coordinate.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("COORDINATE_H" variable (:constant-flag t) nil [30 42])
+            ("iostream" include (:system-flag t) nil [44 63])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [65 85])
+            ("Coordinate" type
+               (:members 
+                  ( ("<<" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [137 147])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [148 167]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [110 168])
+                    ("+" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [201 220])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [221 240]))                          
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [173 241])
+                    ("-" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [274 293])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [294 313]))                          
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [246 314])
+                    ("" variable
+                       (:functionpointer-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [319 398])
+                    ("==" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [426 445])
+                            ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [446 465]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [403 466])
+                    ("public" label nil (reparse-symbol classsubparts) [509 516])
+                    ("Coordinate" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [562 575])
+                    ("Coordinate" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [595 609])
+                            ("" variable
+                               (:constant-flag t
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [609 622]))                          
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [584 623])
+                    ("Coordinate" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [632 654])
+                    ("+=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("cord" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [701 724]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [685 725])
+                    ("get_x" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [762 783])
+                    ("get_y" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [792 813])
+                    ("tolerance" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [843 873])
+                    ("protected" label nil (reparse-symbol classsubparts) [878 888])
+                    ("private" label nil (reparse-symbol classsubparts) [893 901])
+                    ("xVal" variable (:type "double") (reparse-symbol classsubparts) [910 922])
+                    ("yVal" variable (:type "double") (reparse-symbol classsubparts) [931 943]))                  
+                :type "class")
+                nil [87 946]))          
+      :file "Coordinate.h"
+      :pointmax 971
+      :fsize 970
+      :lastmodtime '(21023 41349 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("COORDINATE_H")
+          )
+)
+    (semanticdb-table "Coordinate.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Coordinate.h" include nil nil [1 24])
+            ("math.h" include (:system-flag t) nil [25 42])
+            ("unordered_map" include (:system-flag t) nil [43 67])
+            ("functional" include (:system-flag t) nil [68 89])
+            ("<<" function
+               (:operator-flag t
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [150 166])
+                    ("c" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [167 187]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [130 270])
+            ("+" function
+               (:operator-flag t
+                :arguments 
+                  ( ("cord1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [293 317])
+                    ("cord2" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [318 342]))                  
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [272 419])
+            ("-" function
+               (:operator-flag t
+                :arguments 
+                  ( ("cord1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [442 466])
+                    ("cord2" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [467 491]))                  
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [421 568])
+            ("" variable
+               (:functionpointer-flag t
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [570 719])
+            ("==" function
+               (:operator-flag t
+                :arguments 
+                  ( ("cord1" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [737 761])
+                    ("cord2" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [762 786]))                  
+                :type "bool")
+                nil [721 922])
+            ("Coordinate::tolerance" variable
+               (:constant-flag t
+                :type "double")
+                nil [953 996])
+            ("Coordinate" function
+               (:constructor-flag t
+                :parent "Coordinate"
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [1044 1097])
+            ("Coordinate" function
+               (:constructor-flag t
+                :parent "Coordinate"
+                :arguments 
+                  ( ("x" variable
+                       (:constant-flag t
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1122 1137])
+                    ("y" variable
+                       (:constant-flag t
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [1138 1153]))                  
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [1099 1182])
+            ("Coordinate" function
+               (:destructor-flag t
+                :parent "Coordinate"
+                :type "void")
+                nil [1184 1224])
+            ("+=" function
+               (:operator-flag t
+                :parent "Coordinate"
+                :arguments 
+                  ( ("cordToAdd" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1277 1305]))                  
+                :type "void")
+                nil [1249 1365])
+            ("get_x" function
+               (:parent "Coordinate"
+                :type "double")
+                nil [1404 1457])
+            ("get_y" function
+               (:parent "Coordinate"
+                :type "double")
+                nil [1459 1512]))          
+      :file "Coordinate.cpp"
+      :pointmax 1556
+      :fsize 1555
+      :lastmodtime '(21023 42559 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "hash.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("hash.h" include nil nil [1 18])
+            ("std" type
+               (:members 
+                  ( ("()" function
+                       (:operator-flag t
+                        :parent "hash"
+                        :arguments 
+                          ( ("c" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [76 96]))                          
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [40 218]))                  
+                :type "namespace")
+                nil [20 220]))          
+      :file "hash.cpp"
+      :pointmax 221
+      :fsize 220
+      :lastmodtime '(21023 41363 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "hash.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("HASH_H" variable (:constant-flag t) nil [24 30])
+            ("Coordinate.h" include nil nil [32 55])
+            ("functional" include (:system-flag t) nil [56 77])
+            ("std" type
+               (:members 
+                  ( ("hash" type
+                       (:type "class"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [148 155])
+                            ("()" function
+                               (:prototype-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Coordinate" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [186 205]))                                  
+                                :type ("size_t" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [168 212])
+                            ("protected" label nil (reparse-symbol classsubparts) [221 231])
+                            ("private" label nil (reparse-symbol classsubparts) [240 248]))                          
+                        :template-specifier 
+                          ( ("Coordinate" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [99 255]))                  
+                :type "namespace")
+                nil [79 257]))          
+      :file "hash.h"
+      :pointmax 275
+      :fsize 274
+      :lastmodtime '(21023 41369 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HASH_H")
+          )
+)
+    (semanticdb-table "Hexagonal_Grid.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Hexagonal_Grid.h" include nil nil [1 28])
+            ("math.h" include (:system-flag t) nil [29 46])
+            ("stdexcept" include (:system-flag t) nil [47 67])
+            ("cstdlib" include (:system-flag t) nil [68 86])
+            ("array" include (:system-flag t) nil [87 103])
+            ("boost/random/random_device.hpp" include (:system-flag t) nil [105 146])
+            ("boost/random/uniform_int_distribution.hpp" include (:system-flag t) nil [147 199])
+            ("Hexagonal_Grid::NUM_DIRECTIONS" variable
+               (:constant-flag t
+                :type "int")
+                nil [201 246])
+            ("Hexagonal_Grid" function
+               (:constructor-flag t
+                :parent "Hexagonal_Grid"
+                :arguments 
+                  ( ("spacingVal" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [332 353]))                  
+                :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                nil [301 797])
+            ("Hexagonal_Grid" function
+               (:destructor-flag t
+                :parent "Hexagonal_Grid"
+                :type "void")
+                nil [799 836])
+            ("Hexagonal_Grid" function
+               (:constructor-flag t
+                :parent "Hexagonal_Grid"
+                :arguments 
+                  ( ("gridSource" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [888 921]))                  
+                :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                nil [857 1001])
+            ("=" function
+               (:operator-flag t
+                :parent "Hexagonal_Grid"
+                :arguments 
+                  ( ("gridSource" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1068 1101]))                  
+                :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                nil [1026 1230])
+            ("getDirection" function
+               (:parent "Hexagonal_Grid"
+                :arguments 
+                  ( ("directionNum" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1303 1326]))                  
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [1263 1903])
+            ("randomDirection" function
+               (:parent "Hexagonal_Grid"
+                :type ("Coordinate" type (:type "class") nil nil))
+                nil [1905 1994])
+            ("randomDirectionNum" function
+               (:parent "Hexagonal_Grid"
+                :type "int")
+                nil [1996 2067])
+            ("getNeighbors" function
+               (:parent "Hexagonal_Grid"
+                :arguments 
+                  ( ("location" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2119 2146]))                  
+                :type ("array" type
+                     (:template-specifier 
+                        ( ("Coordinate" type nil nil nil)
+                          ("6"))                        
+                      :type "class")
+                      nil nil))
+                nil [2069 2382])
+            ("getSpacing" function
+               (:parent "Hexagonal_Grid"
+                :type "double")
+                nil [2419 2484]))          
+      :file "Hexagonal_Grid.cpp"
+      :pointmax 2485
+      :fsize 2484
+      :lastmodtime '(21023 41376 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Hexagonal_Grid.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("HEXAGONAL_GRID_H" variable (:constant-flag t) nil [34 50])
+            ("array" include (:system-flag t) nil [52 68])
+            ("boost/random/uniform_int_distribution.hpp" include (:system-flag t) nil [70 122])
+            ("boost/random/random_device.hpp" include (:system-flag t) nil [123 164])
+            ("Coordinate.h" include nil nil [166 189])
+            ("Hexagonal_Grid" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [319 326])
+                    ("Hexagonal_Grid" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [388 398]))                          
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [373 399])
+                    ("Hexagonal_Grid" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [408 434])
+                    ("Hexagonal_Grid" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [458 481]))                          
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [443 482])
+                    ("=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [538 561]))                          
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [512 562])
+                    ("NUM_DIRECTIONS" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [593 625])
+                    ("R1" variable
+                       (:constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [634 654])
+                    ("R2" variable
+                       (:constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [663 683])
+                    ("R3" variable
+                       (:constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [692 712])
+                    ("R4" variable
+                       (:constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [721 741])
+                    ("R5" variable
+                       (:constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [750 770])
+                    ("R6" variable
+                       (:constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [779 799])
+                    ("getDirection" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [861 871]))                          
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [837 878])
+                    ("randomDirection" function
+                       (:prototype-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [887 916])
+                    ("randomDirectionNum" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [925 950])
+                    ("getNeighbors" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("location" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [994 1021]))                          
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("Coordinate" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [960 1028])
+                    ("getSpacing" function
+                       (:prototype-flag t
+                        :type "double")
+                        (reparse-symbol classsubparts) [1074 1100])
+                    ("protected" label nil (reparse-symbol classsubparts) [1106 1116])
+                    ("private" label nil (reparse-symbol classsubparts) [1121 1129])
+                    ("spacing" variable (:type "double") (reparse-symbol classsubparts) [1138 1153])
+                    ("dist" variable (:type ("boost::random::uniform_int_distribution" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1162 1209])
+                    ("rand_dev" variable (:type ("boost::random::random_device" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1218 1256])
+                    ("DirectionNum_out_of_range" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol classsubparts) [1265 1297]))                  
+                :type "class")
+                nil [292 1300]))          
+      :file "Hexagonal_Grid.h"
+      :pointmax 1329
+      :fsize 1328
+      :lastmodtime '(21023 41381 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HEXAGONAL_GRID_H")
+          )
+)
+    (semanticdb-table "RunMaker.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("RunMaker.h" include nil nil [1 22])
+            ("omp.h" include (:system-flag t) nil [24 40])
+            ("RunMaker" function
+               (:constructor-flag t
+                :parent "RunMaker"
+                :arguments 
+                  ( ("walkerObj" variable
+                       (:reference 1
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [61 89]))                  
+                :type ("RunMaker" type (:type "class") nil nil))
+                nil [42 127])
+            ("RunMaker" function
+               (:destructor-flag t
+                :parent "RunMaker"
+                :type "void")
+                nil [129 165])
+            ("COM_Run" function
+               (:parent "RunMaker"
+                :arguments 
+                  ( ("numTimes" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [208 228])
+                    ("fileName" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [229 252]))                  
+                :type "void")
+                nil [185 609])
+            ("trail_Run" function
+               (:parent "RunMaker"
+                :arguments 
+                  ( ("numTimes" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [636 656])
+                    ("fileName" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [657 680]))                  
+                :type "void")
+                nil [611 996])
+            ("trail_and_COM_Run" function
+               (:parent "RunMaker"
+                :arguments 
+                  ( ("numTimes" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1031 1051])
+                    ("COM_fileName" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1052 1079])
+                    ("trail_fileName" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1080 1109]))                  
+                :type "void")
+                nil [998 1878])
+            ("averageDistanceTraveled" function
+               (:parent "RunMaker"
+                :arguments 
+                  ( ("numSteps" variable (:type "int") (reparse-symbol arg-sub-list) [2075 2088])
+                    ("timesToAverage" variable (:type "int") (reparse-symbol arg-sub-list) [2089 2108]))                  
+                :type "void")
+                nil [2036 2475]))          
+      :file "RunMaker.cpp"
+      :pointmax 2477
+      :fsize 2476
+      :lastmodtime '(21023 62312 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "RunMaker.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("RUNMAKER_H" variable (:constant-flag t) nil [28 38])
+            ("fstream" include (:system-flag t) nil [40 58])
+            ("memory" include (:system-flag t) nil [59 76])
+            ("boost/shared_ptr.hpp" include (:system-flag t) nil [78 109])
+            ("Hexagonal_Walker.h" include nil nil [111 140])
+            ("RunMaker" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [163 170])
+                    ("RunMaker" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [188 207]))                          
+                        :type ("RunMaker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [179 208])
+                    ("RunMaker" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [217 237])
+                    ("COM_Run" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("numTimes" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [284 304])
+                            ("fileName" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [305 328]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [271 329])
+                    ("trail_Run" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("numTimes" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [353 373])
+                            ("fileName" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [374 397]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [338 398])
+                    ("trail_and_COM_Run" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("numTimes" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [430 450])
+                            ("COM_fileName" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [451 478])
+                            ("trail_fileName" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [479 508]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [407 509])
+                    ("averageDistanceTraveled" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("numSteps" variable (:type "int") (reparse-symbol arg-sub-list) [585 598])
+                            ("timesToAverage" variable (:type "int") (reparse-symbol arg-sub-list) [599 618]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [556 619])
+                    ("protected" label nil (reparse-symbol classsubparts) [624 634])
+                    ("private" label nil (reparse-symbol classsubparts) [639 647])
+                    ("walker" variable
+                       (:pointer 1
+                        :type ("Hexagonal_Walker" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [656 682]))                  
+                :type "class")
+                nil [142 685]))          
+      :file "RunMaker.h"
+      :pointmax 708
+      :fsize 707
+      :lastmodtime '(21023 41393 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("RUNMAKER_H")
+          )
+)
+    (semanticdb-table "Trail.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("Trail.h" include nil nil [1 19])
+            ("unordered_set" include (:system-flag t) nil [21 45])
+            ("Trail" function
+               (:constructor-flag t
+                :parent "Trail"
+                :arguments 
+                  ( ("startLocation" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [299 331])
+                    ("length" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [332 350])
+                    ("spacing" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [351 370]))                  
+                :type ("Trail" type (:type "class") nil nil))
+                nil [286 597])
+            ("Trail" function
+               (:destructor-flag t
+                :parent "Trail"
+                :type "void")
+                nil [599 618])
+            ("=" function
+               (:operator-flag t
+                :parent "Trail"
+                :arguments 
+                  ( ("trailSource" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Trail" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [657 682]))                  
+                :type ("Trail" type (:type "class") nil nil))
+                nil [633 882])
+            ("add_COM_Coordinate" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("cord" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [943 966]))                  
+                :type "void")
+                nil [912 1289])
+            ("addToTrail" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("cord" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1314 1337]))                  
+                :type "void")
+                nil [1291 1515])
+            ("getNumTimesVisited" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("cord" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("Coordinate" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1547 1570]))                  
+                :type "int")
+                nil [1517 1755])
+            ("getNumTimesVisited" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("cordArray" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("Coordinate" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1797 1835]))                  
+                :type ("array" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil)
+                          ("6"))                        
+                      :type "class")
+                      nil nil))
+                nil [1757 2005])
+            ("getNumTimesVisited" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("coordinateList" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("boost::shared_array" type
+                             (:template-specifier 
+                                ( ("Coordinate" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2124 2178])
+                    ("numElements" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [2179 2202]))                  
+                :type ("boost::shared_array" type
+                     (:template-specifier 
+                        ( ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2073 2423])
+            ("getCoordinateMap" function
+               (:parent "Trail"
+                :constant-flag t
+                :type ("unordered_map" type
+                     (:template-specifier 
+                        ( ("Coordinate" type nil nil nil)
+                          ("int" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2456 2555])
+            ("getCOMList" function
+               (:parent "Trail"
+                :constant-flag t
+                :type ("boost::shared_array" type
+                     (:template-specifier 
+                        ( ("Coordinate" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [2557 2654])
+            ("outputCOM" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2730 2746]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [2704 2970])
+            ("outputTrail" function
+               (:parent "Trail"
+                :arguments 
+                  ( ("output" variable
+                       (:reference 1
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3000 3016]))                  
+                :type ("ostream" type (:type "class") nil nil))
+                nil [2972 4142]))          
+      :file "Trail.cpp"
+      :pointmax 4143
+      :fsize 4142
+      :lastmodtime '(21023 41399 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "Trail.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("TRAIL_H" variable (:constant-flag t) nil [25 32])
+            ("unordered_map" include (:system-flag t) nil [34 58])
+            ("array" include (:system-flag t) nil [59 75])
+            ("boost/shared_array.hpp" include (:system-flag t) nil [77 110])
+            ("Coordinate.h" include nil nil [112 135])
+            ("hash.h" include nil nil [136 153])
+            ("Hexagonal_Grid.h" include nil nil [154 181])
+            ("Trail" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [200 207])
+                    ("Trail" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("startLocation" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [222 254])
+                            ("length" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [255 273])
+                            ("spacing" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [274 293]))                          
+                        :type ("Trail" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [216 294])
+                    ("Trail" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [303 320])
+                    ("=" function
+                       (:prototype-flag t
+                        :operator-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Trail" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [367 381]))                          
+                        :type ("Trail" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [350 382])
+                    ("add_COM_Coordinate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [443 462]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [419 463])
+                    ("addToTrail" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [488 507]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [472 508])
+                    ("getNumTimesVisited" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Coordinate" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [588 607]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [565 614])
+                    ("getNumTimesVisited" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("coordinateList" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("boost::shared_array" type
+                                     (:template-specifier 
+                                        ( ("Coordinate" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [667 721])
+                            ("numElements" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [722 745]))                          
+                        :type ("boost::shared_array" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [623 752])
+                    ("getNumTimesVisited" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("cordArray" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("array" type
+                                     (:template-specifier 
+                                        ( ("Coordinate" type nil nil nil)
+                                          ("6"))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [794 832]))                          
+                        :type ("array" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil)
+                                  ("6"))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [761 839])
+                    ("getCOMList" function
+                       (:prototype-flag t
+                        :constant-flag t
+                        :type ("boost::shared_array" type
+                             (:template-specifier 
+                                ( ("Coordinate" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [877 935])
+                    ("getCoordinateMap" function
+                       (:prototype-flag t
+                        :constant-flag t
+                        :type ("unordered_map" type
+                             (:template-specifier 
+                                ( ("Coordinate" type nil nil nil)
+                                  ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [944 1008])
+                    ("outputCOM" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1064 1074]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1045 1081])
+                    ("outputTrail" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("output" variable
+                               (:reference 1
+                                :type ("ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1111 1127]))                          
+                        :type ("ostream" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1090 1134])
+                    ("protected" label nil (reparse-symbol classsubparts) [1139 1149])
+                    ("private" label nil (reparse-symbol classsubparts) [1154 1162])
+                    ("centerOfMassList" variable (:type ("boost::shared_array" type
+                         (:template-specifier 
+                            ( ("Coordinate" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1171 1220])
+                    ("coordinateMap" variable (:type ("unordered_map" type
+                         (:template-specifier 
+                            ( ("Coordinate" type nil nil nil)
+                              ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1229 1275])
+                    ("counter" variable (:type "int") (reparse-symbol classsubparts) [1284 1296])
+                    ("trailLength" variable (:type "int") (reparse-symbol classsubparts) [1305 1321])
+                    ("grid" variable
+                       (:constant-flag t
+                        :type ("Hexagonal_Grid" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1380 1406]))                  
+                :type "class")
+                nil [182 1479]))          
+      :file "Trail.h"
+      :pointmax 1499
+      :fsize 1498
+      :lastmodtime '(21023 41405 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("TRAIL_H")
+          )
+))
+  :file "!drive_c!Users!chompy_local!Documents!Coding_Projects!Random_Walk!organized_files!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

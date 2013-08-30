@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("Cluzel_Conclusion_2"
+ (filename . "~/Dropbox/sharelatex/Cluzel_Conclusion/main2.tex")
+ (front-context-string . "\n\\usepackage{doi")
+ (rear-context-string . "liography Setup\n")
+ (position . 786))
+("Cluzel_Conclusion_outline"
+ (filename . "~/Dropbox/sharelatex/Cluzel_Conclusion/outline.org")
+ (front-context-string)
+ (rear-context-string . "* Eat 2 potatoes")
+ (position . 32))
+("Cluzel_Conclusion"
+ (filename . "~/Dropbox/sharelatex/Cluzel_Conclusion/main.tex")
+ (front-context-string . "\\date{August 201")
+ (rear-context-string . "author{Bryan W}\n")
+ (position . 97))
+)

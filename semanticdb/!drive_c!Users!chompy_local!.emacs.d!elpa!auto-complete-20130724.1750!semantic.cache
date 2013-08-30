@@ -1,0 +1,16 @@
+;; Object auto-complete-20130724.1750/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "auto-complete-20130724.1750/"
+  :tables
+  (list
+    (semanticdb-table "auto-complete-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "auto-complete-autoloads.el"
+      :pointmax 281
+      :fsize 669
+      :lastmodtime '(21024 57688 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!chompy_local!.emacs.d!elpa!auto-complete-20130724.1750!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
