@@ -4,8 +4,9 @@
 
 
 ;;;### (autoloads (el-get-checksum el-get-make-recipes el-get-cd
-;;;;;;  el-get-self-update el-get-update-all el-get-version) "el-get/el-get"
-;;;;;;  "el-get/el-get.el" (20978 63528 0 0))
+;;;;;;  el-get-self-update el-get-update-packages-of-type el-get-update-all
+;;;;;;  el-get-version) "el-get/el-get" "el-get/el-get.el" (21180
+;;;;;;  42322 527923 830000))
 ;;; Generated autoloads from el-get/el-get.el
 
 (autoload 'el-get-version "el-get/el-get" "\
@@ -17,6 +18,11 @@ Message the current el-get version
 Performs update of all installed packages.
 
 \(fn &optional NO-PROMPT)" t nil)
+
+(autoload 'el-get-update-packages-of-type "el-get/el-get" "\
+Update all installed packages of type TYPE.
+
+\(fn TYPE)" t nil)
 
 (autoload 'el-get-self-update "el-get/el-get" "\
 Update el-get itself.  The standard recipe takes care of reloading the code.
@@ -42,7 +48,7 @@ Compute the checksum of the given package, and put it in the kill-ring
 ;;;***
 
 ;;;### (autoloads (el-get-list-packages) "el-get/el-get-list-packages"
-;;;;;;  "el-get/el-get-list-packages.el" (20978 63528 0 0))
+;;;;;;  "el-get/el-get-list-packages.el" (21180 42322 519927 829000))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -56,8 +62,7 @@ Display a list of packages.
 ;;;;;;  "el-get/el-get-byte-compile.el" "el-get/el-get-core.el" "el-get/el-get-custom.el"
 ;;;;;;  "el-get/el-get-dependencies.el" "el-get/el-get-install.el"
 ;;;;;;  "el-get/el-get-methods.el" "el-get/el-get-notify.el" "el-get/el-get-recipes.el"
-;;;;;;  "el-get/el-get-status.el" "popup/popup.el") (21024 57784
-;;;;;;  595000 0))
+;;;;;;  "el-get/el-get-status.el") (21180 42325 326913 887000))
 
 ;;;***
 

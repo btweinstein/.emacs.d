@@ -1,0 +1,20 @@
+;; Object python-fitbit/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "python-fitbit/"
+  :tables (list 
+   (semanticdb-table "setup.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("setuptools" include nil nil [23 66])
+            ("setup" code nil nil [68 405]))          
+    :file "setup.py"
+    :pointmax 406
+    :fsize 405
+    :lastmodtime '(21181 1794 922587 729000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!bryan!Dropbox!personal_data!python-fitbit!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

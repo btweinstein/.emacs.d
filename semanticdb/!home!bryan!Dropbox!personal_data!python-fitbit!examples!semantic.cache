@@ -1,0 +1,18 @@
+;; Object examples/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "examples/"
+  :tables (list 
+   (semanticdb-table "dump.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "dump.py"
+    :pointmax 2056
+    :fsize 2055
+    :lastmodtime '(21181 1794 922587 729000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!bryan!Dropbox!personal_data!python-fitbit!examples!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

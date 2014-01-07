@@ -35,26 +35,6 @@
 (setq ido-everywhere t)
 (ido-mode 1)
 
-;; Jedi
-(eval-when-compile (require 'jedi nil t))
-(setq jedi:setup-keys t)
-(require 'jedi)
-(add-hook 'python-mode-hook 'jedi:setup)
-
-(global-auto-complete-mode t)
-(setq jedi:complete-on-dot t)
-
-;; ECB
-(require 'ecb)
-(require 'ecb-autoloads)
-(setq ecb-auto-activate 1)
-
-(setq ecb-source-path '(("~/cancer_experiments/omeroScripts" "omeroScripts")
-			("~/Documents/Coding_Projects/Random_Walk" "Living_Droplets")))
-(setq ecb-source-file-regexps '((".*" ("\\(^\\(\\.\\|#\\)\\|\\(~$\\|\\.\\(elc\\|obj\\|o\\|class\\|lib\\|dll\\|a\\|so\\|cache\\|pyc\\)$\\)\\)") ("^\\.\\(emacs\\|gnus\\)$"))))
-;; (setq ecb-show-sources-in-directories-buffer (quote always))
-(semantic-mode 1)
-
 ;; Window Movement
 (global-set-key (kbd "C-c <up>") 'windmove-up)
 (global-set-key (kbd "C-c <down>") 'windmove-down)
@@ -71,11 +51,6 @@
 (setq-default TeX-master nil)
 
 (add-hook 'LaTeX-mode-hook 'visual-line-mode)
-; Spell check: use speck-mode on windows or else it's slow
-(if (eq system-type 'windows-nt)
-  (add-hook 'LaTeX-mode-hook 'speck-mode)
-  (add-hook 'Latex-mode-hook 'flyspell-mode)
-)
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)
 
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
@@ -83,10 +58,7 @@
 
 (setq TeX-PDF-mode t)
 (global-font-lock-mode t)
-
 (setq preview-image-type 'pnm)
-
-;; Org mode
 
 ; Wrap lines intelligently
 (add-hook 'org-mode-hook 'visual-line-mode)
@@ -97,11 +69,6 @@
             (org-indent-mode t))
           t)
 
-;; Use Aspell on windows
-(if (eq system-type 'windows-nt)
-  (setq ispell-program-name "aspell")
-  (setq ispell-personal-dictionary "~/.emacs.d/.ispell")
-)
 (require 'ispell)
 (setq flyspell-issue-message-flag nil)
 

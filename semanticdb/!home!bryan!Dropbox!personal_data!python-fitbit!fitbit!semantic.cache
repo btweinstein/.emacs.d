@@ -1,0 +1,27 @@
+;; Object fitbit/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "fitbit/"
+  :tables (list 
+   (semanticdb-table "client.py"
+    :major-mode 'python-mode
+    :tags nil
+    :file "client.py"
+    :pointmax 6704
+    :fsize 6699
+    :lastmodtime '(21181 3946 798484 447000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "client.py~"
+    :major-mode 'python-mode
+    :tags nil
+    :file "client.py~"
+    :pointmax 6704
+    :fsize 6703
+    :lastmodtime '(21181 3071 626526 452000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!bryan!Dropbox!personal_data!python-fitbit!fitbit!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

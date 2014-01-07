@@ -1,0 +1,34 @@
+;; Object FitbitIntraday/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "FitbitIntraday/"
+  :tables (list 
+   (semanticdb-table "test.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("datetime" include nil nil [1 40])
+            ("FitbitIntraday" include nil nil [41 82])
+            ("fbi" variable nil nil [84 106])
+            ("fbi" code nil nil [108 156])
+            ("start_day" variable nil nil [158 190])
+            ("end_day" code nil nil [191 230])
+            ("folder_path" variable nil nil [231 264])
+            ("fbi" code nil nil [266 333])
+            ("fbi" code nil nil [334 398])
+            ("fbi" code nil nil [399 464])
+            ("fbi" code nil nil [465 535]))          
+    :file "test.py"
+    :pointmax 535
+    :fsize 535
+    :lastmodtime '(21181 5031 670432 378000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "FitbitIntraday.py"
+    :file "FitbitIntraday.py"
+    :fsize 3650
+    :lastmodtime '(21181 4751 778445 811000)
+    )
+   )
+  :file "!home!bryan!Dropbox!personal_data!FitbitIntraday!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
